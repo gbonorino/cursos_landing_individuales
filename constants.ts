@@ -6,10 +6,10 @@ export const COURSES: Course[] = [
     id: 1, 
     title: "Chatbot personalizado con LangChain", 
     slug: "chatbot-langchain",
-    category: "IA", 
+    category: "Inteligencia Artificial", 
     price: "$72.000", 
     track: "ai", 
-    desc: "Crea tu propio asistente virtual capaz de leer tus documentos PDF y responder preguntas específicas.",
+    desc: "Crea tu propio asistente virtual capaz de leer tus documentos PDF y responder preguntas específicas, evitando alucinaciones.",
     externalLink: "https://centroredes.org.ar/index.php/chatbot-4/",
     content: {
       fullTitle: "Chatbot personalizado con LangChain y Groq",
@@ -93,10 +93,10 @@ export const COURSES: Course[] = [
     }
   },
   { 
-    id: 13, 
+    id: 2, 
     title: "Vibe Coding con Lovable", 
     slug: "vibe-coding-lovable",
-    category: "IA", 
+    category: "Inteligencia Artificial", 
     price: "$99.900", 
     track: "ai", 
     desc: "Desarrollo de apps y páginas web. Agrega un atractivo dashboard a tu modelo científico",
@@ -107,8 +107,8 @@ export const COURSES: Course[] = [
       hours: "96 horas",
       instructor: "Dr. Gustavo González Bonorino",
       area: "Inteligencia Artificial",
-      audience: "Programadores principiantes que desean rápidamente y con escaso conocimiento de codificación desarrollar una página landing o una sencilla aplicación web. Y también programadores experimentados que desean potenciar la producción delegando en Lovable gran parte del código de relleno.",
-      description: "Con Vibe Coding se describe la posibilidad de generar código útil delegando la tarea enteramente en la IA. Un prompt inicial describe la aplicación o página web que se desea construir y gatilla la acción, y los modelos y agentes embebidos en la plataforma devuelven un código que materializa esa app o página web. Lovable es una de las plataformas de codificación con IA más avanzadas. Este curso muestra cómo emplear Lovable en vuestros proyectos. Se procede en tres etapas: exploración de comandos y opciones, creación de prompts eficientes y comprensión de la arquitectura de proyectos, y finalmente numerosos ejemplos de uso de complejidad creciente.",
+      audience: "Programadores principiantes que desean rápidamente desarrollar una página landing o una sencilla aplicación web. Y también programadores experimentados que desean potenciar la producción delegando en Lovable gran parte del código de relleno.",
+      description: "Vibe Coding permite generar código útil delegando la tarea enteramente en la IA. Un prompt inicial describe la aplicación o página web que se desea construir y gatilla la acción, y los modelos y agentes embebidos en la plataforma devuelven un código que materializa esa app o página web. Lovable es una de las plataformas de codificación con IA más avanzadas. Este curso muestra cómo emplear Lovable en vuestros proyectos. Se procede en tres etapas: exploración de comandos y opciones, creación de prompts eficientes y comprensión de la arquitectura de proyectos, y finalmente numerosos ejemplos de uso de complejidad creciente.",
       modality: "Curso virtual con acceso 24/7. Consultas por Foro 24/7, opción de Proyecto Personal, y dos reuniones sincrónicas al promediar el curso para conversar sobre avances.",
       modules: [
         {
@@ -171,7 +171,7 @@ export const COURSES: Course[] = [
     }
   },
   { 
-    id: 14, 
+    id: 3, 
     title: "Cursor AI: Programación Científica", 
     slug: "cursor-ai",
     category: "IA", 
@@ -186,7 +186,7 @@ export const COURSES: Course[] = [
       instructor: "Dr. Gustavo González Bonorino",
       area: "Inteligencia Artificial",
       audience: "Desarrolladores de Python principiantes con interés por la ciencia de datos y la programación científica. Usuarios de Python interesados en incorporar IA al desarrollo técnico. Estudiantes, investigadores e ingenieros que desean producir resultados numéricos de forma más eficiente. Desarrolladores que quieran aprender Cursor AI de manera práctica, aplicada y orientada a proyectos.",
-      description: "La realidad del ambiente profesional es que muchos usuarios generan código para aplicaciones en ciencia de datos, física o finanzas, que típicamente implementa Python o R. Esto denominamos \"programación científica\", y es tópico de este curso. Nuestro compromiso es ayudarles a dominar Cursor AI y a aplicarlo en programación científica respetando las normas de estilo y de modularidad que distinguen scripts profesionales. El curso se organiza en tres partes: nociones fundamentales sobre estilos de programación y modelos de lenguaje, descripción de las pantallas y comandos en Cursor AI, y aplicación en un proyecto de programación científica no trivial.",
+      description: "Muchos usuarios generan código para aplicaciones en ciencia de datos, física o finanzas, comúnmente empleando Python o R. Esto es \"programación científica\" y es tópico de este curso. Aprenderán a dominar Cursor AI y a aplicarlo en programación científica respetando las normas de estilo y de modularidad que distinguen scripts profesionales. El curso se organiza en tres partes: nociones fundamentales sobre estilos de programación y modelos de lenguaje, descripción de las pantallas y comandos en Cursor AI, y aplicación en un proyecto de programación científica no trivial.",
       modality: "Curso virtual con acceso 24/7. Consultas por Foro 24/7, opción de Proyecto Personal, y dos reuniones sincrónicas al promediar el curso para conversar sobre avances.",
       modules: [
         {
@@ -255,23 +255,23 @@ export const COURSES: Course[] = [
     }
   },
   { 
-    id: 5, 
+    id: 4, 
     title: "Potenciar Excel con Python + IA", 
     slug: "excel-python-ia",
     category: "Office", 
-    price: "$90.000", 
+    price: "$89.820", 
     track: "ai", 
     desc: "Deja de luchar con fórmulas manuales. Automatiza reportes y análisis de datos conectando Excel con Python.",
     externalLink: "https://centroredes.org.ar/index.php/potenciar-excel-con-python/",
     content: {
-      fullTitle: "Potenciar Excel con Python y viceversa, con ChatGPT",
+      fullTitle: "Potenciar Excel con Python y viceversa",
       duration: "6 semanas",
       hours: "96 horas",
       instructor: "Dr. Gustavo González Bonorino y Augusto González Bonorino",
       area: "Análisis de Datos",
       audience: "Usuarios de Excel que desean automatizar tareas y fortalecer la capacidad de cálculo y gráfica de Excel con Python. Desarrolladores de Python que desean ampliar su alcance difundiendo resultados por Excel, una plataforma de fácil acceso y enorme aceptación.",
       description: "Este curso se basa en la premisa de que la simbiosis entre Python y Excel es de beneficio mutuo. El usuario de Excel se beneficia al incorporar recursos de Python para automatizar muchas tareas y mejorar las presentaciones, sin dejar de usar Excel. El usuario de Python se beneficia al aprender a manipular datos en planillas Excel y multiplicar la potencial audiencia. Se ve cómo transferir información de Excel a Python, procesarla en Python y devolver los resultados a Excel en un formato adecuado para la difusión. Se trabaja con dos bibliotecas de Python: pandas y openpyxl. Se incorpora ChatGPT para consultas generales y para ayuda con la codificación.",
-      modality: "Curso virtual práctico con videos complementados con scripts en cuadernos Jupyter. Una clase sincrónica en horario a convenir para Proyecto Personal. Acceso 24/7 a la plataforma sin restricciones de horario.",
+      modality: "Curso virtual con acceso 24/7. Videos complementados con scripts en cuadernos Jupyter, y ejercicios de codificación. Se ofrecen dos reuniones sincrónicas en horario a convenir, para brindar orientación y para aclarar dudas sobre el Proyecto Personal. El acceso al material del curso permanece abierto por unos seis meses después del cierre.",
       modules: [
         {
           title: "Módulo 1 — Introducción y entorno de trabajo",
@@ -317,18 +317,18 @@ export const COURSES: Course[] = [
       evaluation: "Centro REDES emite certificado de Participación, y opcionalmente certificado de Aprobación con calificación numérica. Este último requiere la presentación de un Proyecto Personal sobre un tema a elección del participante."
     },
     pricing: {
-      installmentPrice: "$50.000",
-      paymentFullUrl: "/",
-      paymentInstallmentUrl: "/",
+      installmentPrice: "$49.900",
+      paymentFullUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/e93ff286-3799-4551-b330-eaaf587120ea/payment-option-form/?source=link&preference-id=104981320-592c806f-c66f-4de3-8a75-e94fe07ed945&router-request-id=4f4c7645-b76e-46f4-8289-1b1e15b1e334&p=122fdb57b297b4c21aa1bd8f7e79ecda",
+      paymentInstallmentUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/e93ff286-3799-4551-b330-eaaf587120ea/payment-option-form/?source=link&preference-id=104981320-592c806f-c66f-4de3-8a75-e94fe07ed945&router-request-id=4f4c7645-b76e-46f4-8289-1b1e15b1e334&p=122fdb57b297b4c21aa1bd8f7e79ecda",
     }
   },
 
-  // TRACK: GEOSPACIAL
+  // TRACK: GEOESPACIAL
   { 
-    id: 2, 
+    id: 5, 
     title: "Imágenes Satelitales (Software Libre)", 
     slug: "imagenes-satelitales",
-    category: "Satellites", 
+    category: "Satélites", 
     price: "$90.000", 
     track: "geo", 
     desc: "Domina el procesamiento de Landsat y Sentinel para monitoreo ambiental sin costos de licencia.",
@@ -341,7 +341,7 @@ export const COURSES: Course[] = [
       area: "Análisis de Datos Geoespaciales",
       audience: "Todos aquellos que consideren profesionalmente beneficioso aprender a obtener y procesar una diversidad de productos satelitales, y aplicar la información a la resolución de problemas reales.",
       description: "\"Análisis de imágenes satelitales con software libre\" se destaca por cubrir los principales productos satelitales multiespectrales: Landsat, ASTER, MODIS y Sentinel-2, así como también eficaces simbiosis entre productos satelitales y modelos climáticos globales implementadas por la NASA (GLDAS, Giovanni). El curso es fuertemente práctico, aunque incluye nociones teóricas esenciales. Se enfoca sobre la imagen y las técnicas para extraer de ella información aplicable en distintos ámbitos profesionales. En 6 semanas adquirirán habilidad para aplicar una variedad de productos satelitales y técnicas de procesamiento en vuestra labor profesional.",
-      modality: "Curso virtual con seis módulos semanales. Los ejercicios van acompañados por los datos necesarios, instructivos detallados y videos. Dos clases sincrónicas en horario a convenir. Opción de Proyecto Personal.",
+      modality: "Curso virtual con acceso 24/7. Videos complementados con scripts en cuadernos Jupyter, y ejercicios de codificación. Se ofrecen dos reuniones sincrónicas en horario a convenir, para brindar orientación y para aclarar dudas sobre el Proyecto Personal. El acceso al material del curso permanece abierto por unos seis meses después del cierre.",
       modules: [
         {
           title: "Módulo 1 — Productos satelitales, píxeles y bandas",
@@ -407,16 +407,16 @@ export const COURSES: Course[] = [
     }
   },
   { 
-    id: 11, 
+    id: 6, 
     title: "Google Earth Engine Integral", 
     slug: "google-earth-engine",
-    category: "Satellites", 
-    price: "$100.000", 
+    category: "Satélites", 
+    price: "$107.982", 
     track: "geo", 
     desc: "Procesamiento masivo de datos geoespaciales en la nube. La herramienta estándar de la industria actual.",
     externalLink: "https://centroredes.org.ar/index.php/google-earth-engine/",
     content: {
-      fullTitle: "Google Earth Engine Integral, potenciado con ChatGPT",
+      fullTitle: "Google Earth Engine Integral",
       duration: "6 semanas",
       hours: "60 horas",
       instructor: "Dr. Gustavo González Bonorino",
@@ -480,22 +480,22 @@ export const COURSES: Course[] = [
       evaluation: "La evaluación se basa en el desempeño a lo largo del curso y en la elaboración de un proyecto propio bajo tutoría. Centro REDES emite certificados de Participación y, opcionalmente, de Aprobación con evaluación numérica."
     },
     pricing: {
-      installmentPrice: "$55.600",
-      paymentFullUrl: "/",
-      paymentInstallmentUrl: "/",
+      installmentPrice: "$59.990",
+      paymentFullUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/cd5ce519-d31c-4462-a87e-228dc35dddd5/payment-option-form/?source=link&preference-id=104981320-cfadfbf5-a94a-4ccc-97e9-d2446e4a2a27&router-request-id=349b2b2d-7916-4b5b-853e-156ff635b437&p=122fdb57b297b4c21aa1bd8f7e79ecda",
+      paymentInstallmentUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/b92e8053-d5fd-431b-b315-5fd4b4d303d1/payment-option-form/?source=link&preference-id=104981320-cd448345-0e06-4d11-a497-1a7f99d682e0&router-request-id=b3c82c18-519a-4674-91e0-cff561b9d547&p=122fdb57b297b4c21aa1bd8f7e79ecda",
     }
   },
   { 
-    id: 12, 
+    id: 7, 
     title: "QGIS y Datos Espaciales", 
     slug: "qgis-datos-espaciales",
     category: "GIS", 
-    price: "$99.900", 
+    price: "$107.982", 
     track: "geo", 
     desc: "Desde cero a mapas profesionales. La alternativa #1 a ArcGIS potenciada con plugins de IA.",
     externalLink: "https://centroredes.org.ar/index.php/qgis-inicial/",
     content: {
-      fullTitle: "QGIS Integral, análisis de datos espaciales, potenciado con ChatGPT",
+      fullTitle: "QGIS Integral, análisis de datos espaciales",
       duration: "6 semanas",
       hours: "96 horas",
       instructor: "Dr. Gustavo González Bonorino",
@@ -582,9 +582,9 @@ export const COURSES: Course[] = [
       evaluation: "La evaluación se basa en el desempeño a lo largo del curso y en la elaboración de un proyecto propio bajo tutoría. Centro REDES emite certificados de PARTICIPACIÓN y, opcionalmente, de APROBACIÓN con evaluación numérica."
     },
     pricing: {
-      installmentPrice: "$55.500",
-      paymentFullUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/fb5d274c-b339-48f0-b7dd-111bb2611b8b/payment-option-form/?source=link&preference-id=104981320-985af9fd-9be6-42c8-afb0-7b270c5cbb6b&router-request-id=f7634bdc-f4a7-4f26-b33c-acda73339d67&p=cceaf388cdead7ca133eac0253c6cd65",
-      paymentInstallmentUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/80c9ffe1-a474-4b89-9e74-155fef5124b5/payment-option-form/?source=link&preference-id=104981320-2a7413a4-0c96-4b77-b3cb-6cae3bd87e6a&router-request-id=668c11c8-2563-467a-9443-89193e4779ec&p=cceaf388cdead7ca133eac0253c6cd65",
+      installmentPrice: "$59.990",
+      paymentFullUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/38302944-8fec-4092-8d51-d93c8bd5fe83/payment-option-form/?source=link&preference-id=104981320-e667392e-086d-41d6-9509-8b6b09a88c39&router-request-id=dd7d405a-7e58-45fc-b0a4-407bf2c4d6e5&p=122fdb57b297b4c21aa1bd8f7e79ecda",
+      paymentInstallmentUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/cd5ce519-d31c-4462-a87e-228dc35dddd5/payment-option-form/?source=link&preference-id=104981320-cfadfbf5-a94a-4ccc-97e9-d2446e4a2a27&router-request-id=349b2b2d-7916-4b5b-853e-156ff635b437&p=122fdb57b297b4c21aa1bd8f7e79ecda",
     }
   },
   { 
@@ -604,7 +604,7 @@ export const COURSES: Course[] = [
       area: "Análisis de Datos Geoespaciales",
       audience: "Quienes desean introducirse a las prácticas geoespaciales comunes en la agricultura sitio-específica, o agricultura de precisión. No se tratan temas propios de las ciencias agronómicas sino puntualmente, como contexto de los ejercicios.",
       description: "Este curso muestra cómo combinar técnicas propias de los sistemas de información geográfica (SIG) con la interpretación de imágenes satelitales para crear productos útiles en la Agricultura de Precisión (AP). Aprenderán el uso de información satelital y SIG para dividir un lote en zonas de manejo, crear mapas de prescripción, obtener y procesar imágenes Landsat, ASTER, Sentinel-2 y MODIS, calcular índices espectrales, analizar la evolución temporal de un cultivo, diseñar estrategias de muestreo, y evaluar parámetros agro-meteorológicos a escala regional. Se emplean programas de acceso gratuito (QGIS, Multispec, YieldEditor).",
-      modality: "Curso virtual práctico basado en numerosos ejercicios. Dos clases sincrónicas en horario a convenir. Opción de Proyecto Personal. Acceso 24/7 a la plataforma. Se incorpora ChatGPT para consultas y ayuda con la codificación.",
+      modality: "Curso virtual con acceso 24/7. Videos complementados con scripts en cuadernos Jupyter, y ejercicios de codificación. Se ofrecen dos reuniones sincrónicas en horario a convenir, para brindar orientación y para aclarar dudas sobre el Proyecto Personal. El acceso al material del curso permanece abierto por unos seis meses después del cierre.",
       modules: [
         {
           title: "Primera Parte — Los SIG en la agricultura de precisión",
@@ -660,10 +660,10 @@ export const COURSES: Course[] = [
 
   // TRACK: DATA SCIENCE
   { 
-    id: 6, 
+    id: 9, 
     title: "Python avanzado", 
     slug: "python-avanzado",
-    category: "Code", 
+    category: "Programación", 
     price: "$99.900", 
     track: "data", 
     desc: "El lenguaje fundamental de la ciencia de datos. Aprende sintaxis, librerías y automatización básica.",
@@ -738,10 +738,10 @@ export const COURSES: Course[] = [
     }
   },
   { 
-    id: 4, 
+    id: 10, 
     title: "Programación aplicada con R", 
     slug: "programacion-r",
-    category: "Code", 
+    category: "Programación", 
     price: "$90.000", 
     track: "data", 
     desc: "Análisis estadístico robusto y gráficos de publicación científica (ggplot2) para investigadores.",
@@ -752,9 +752,9 @@ export const COURSES: Course[] = [
       hours: "96 horas",
       instructor: "Dr. Gustavo González Bonorino",
       area: "Ciencia de Datos",
-      audience: "Para quien desee aprender a programar en R, o simplemente utilizarlo en sus labores profesionales, este curso les dará el conocimiento necesario para hacerlo.",
+      audience: "A quien desee aprender a utilizar el lenguaje R en sus labores profesionales, este curso les dará el conocimiento necesario para hacerlo.",
       description: "El lenguaje R es particularmente aplicable en Estadística y en minería de datos. Junto con Python, R es el lenguaje más requerido en Ciencia de Datos. En una primera parte se hace una concisa pero exhaustiva presentación del lenguaje R, hasta haber adquirido el conocimiento para trabajar con R. En una segunda parte se aplica R en numerosos casos reales tomados de muy diversas disciplinas. Los fundamentos teóricos de las variadas técnicas matemáticas y estadísticas empleadas en los ejemplos se dan sucintamente. Se incorpora ChatGPT para consultas generales y para ayuda con la codificación.",
-      modality: "Curso virtual fuertemente práctico. Ejercicios sencillos conducen a otros más elaborados y, progresivamente, a programar en R. Dos clases sincrónicas en horario a convenir. Acceso 24/7 a la plataforma.",
+      modality: "Curso virtual con acceso 24/7. Videos complementados con scripts en cuadernos Jupyter, y ejercicios de codificación. Se ofrecen dos reuniones sincrónicas en horario a convenir, para brindar orientación y para aclarar dudas sobre el Proyecto Personal. El acceso al material del curso permanece abierto por unos seis meses después del cierre.",
       modules: [
         {
           title: "Módulo 1 — Operando con R y RStudio",
@@ -825,13 +825,100 @@ export const COURSES: Course[] = [
     }
   },
   { 
-    id: 3, 
-    title: "SQLite en la era de la IA", 
-    slug: "sqlite-ia",
-    category: "Data", 
+    id: 11, 
+    title: "Epidemiología estadística y espacial con R",
+    slug: "programacion-r",
+    category: "Programación", 
     price: "$99.900", 
     track: "data", 
-    desc: "Gestiona grandes volúmenes de datos que no caben en un Excel, con asistencia de la IA.",
+    desc: "Introducción a la aplicación del lenguaje R en el análisis de datos epidemiológicos.",
+    externalLink: "https://centroredes.org.ar/index.php/epi-r/",
+    content: {
+      fullTitle: "Epidemiología estadística con R",
+      duration: "6 semanas",
+      hours: "96 horas",
+      instructor: "Dr. Gustavo González Bonorino",
+      area: "Ciencia de Datos",
+      audience: "Para quien desee aprender a programar en R, o simplemente utilizarlo en sus labores profesionales, este curso les dará el conocimiento necesario para hacerlo.",
+      description: "El lenguaje R es particularmente aplicable en Estadística y en minería de datos. Junto con Python, R es el lenguaje más requerido en Ciencia de Datos. En una primera parte se hace una concisa pero exhaustiva presentación del lenguaje R, hasta haber adquirido el conocimiento para trabajar con R. En una segunda parte se aplica R en numerosos casos reales tomados de muy diversas disciplinas. Los fundamentos teóricos de las variadas técnicas matemáticas y estadísticas empleadas en los ejemplos se dan sucintamente. Se incorpora ChatGPT para consultas generales y para ayuda con la codificación.",
+      modality: "Curso virtual con acceso 24/7. Videos complementados con scripts en cuadernos Jupyter, y ejercicios de codificación. Se ofrecen dos reuniones sincrónicas en horario a convenir, para brindar orientación y para aclarar dudas sobre el Proyecto Personal. El acceso al material del curso permanece abierto por unos seis meses después del cierre.",
+      modules: [
+        {
+          title: "Módulo 1 — Operando con R y RStudio",
+          topics: [
+            "Instalación y diferencias entre R y RStudio",
+            "Operadores",
+            "La interfaz gráfica de RStudio",
+            "Carga de archivos y rutas de enlace",
+            "Paquetes",
+            "Estructuras y tipos de datos: vectores, matrices, arrays, listas, marcos de datos, factores, funciones"
+          ]
+        },
+        {
+          title: "Módulo 2 — Propiedades y transferencia de datos",
+          topics: [
+            "Examinar y modificar propiedades de datos",
+            "Atributos y coerción",
+            "Importar/Exportar datos",
+            "Archivos en formato netCDF",
+            "Manejo de tablas de datos y unión de tablas",
+            "Manejo de valores faltantes",
+            "Manejo de fecha y hora"
+          ]
+        },
+        {
+          title: "Módulo 3 — Presentaciones visuales y programación",
+          topics: [
+            "Gráficos y series temporales",
+            "Iteración y bucles condicionales",
+            "Familia apply(), lapply(), sapply(), tapply()",
+            "Scripts y buenas prácticas en programación"
+          ]
+        },
+        {
+          title: "Módulo 4 — Manejo de datos espaciales",
+          topics: [
+            "Manejo de datos espaciales con R"
+          ]
+        },
+        {
+          title: "Módulo 5 — Aplicaciones de R (parte 1)",
+          topics: [
+            "Fundamentos de las técnicas aplicadas",
+            "Minería de datos",
+            "Series temporales",
+            "Agricultura",
+            "Ciencias de la Salud",
+            "Ciencias de la Tierra y ambientales"
+          ]
+        },
+        {
+          title: "Módulo 6 — Aplicaciones de R (parte 2)",
+          topics: [
+            "Ciencias Económicas",
+            "Ciencias Sociales",
+            "Ciencias Químicas e Ingeniería",
+            "Aprendizaje automatizado (Machine Learning)"
+          ]
+        }
+      ],
+      requirements: "No requiere conocimientos previos de R. Se parte de cero y se construye conocimiento hasta un nivel intermedio avanzado. Los programas R y RStudio son de acceso gratuito. PC con procesador Intel i5, o de rango equivalente.",
+      evaluation: "Centro REDES otorga certificados de Participación y de Aprobación. El certificado de Aprobación lleva una calificación numérica y exige la presentación de un Proyecto Personal."
+    },
+    pricing: {
+      installmentPrice: "$55.500",
+      paymentFullUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/da9c6f11-b6ae-4167-832a-1c9a70d08914/payment-option-form/?source=link&preference-id=104981320-1f4e6422-b3cb-4239-a3e9-db5fec6234bb&router-request-id=a9d355ea-6498-4a0f-a63e-80631b17afef&p=122fdb57b297b4c21aa1bd8f7e79ecda",
+      paymentInstallmentUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/4a19ca3e-8c1e-44de-b119-c60a639daee2/payment-option-form/?source=link&preference-id=104981320-a6cb96d6-c8ae-4c7a-a59a-d1b02006fac8&router-request-id=f5bb2c86-f2ef-4e33-978a-c11b93c74d92&p=122fdb57b297b4c21aa1bd8f7e79ecda",
+    }
+  },  
+  { 
+    id: 12, 
+    title: "SQLite en la era de la IA", 
+    slug: "sqlite-ia",
+    category: "Programación", 
+    price: "$99.900", 
+    track: "data", 
+    desc: "Gestiona eficientemente grandes volúmenes de datos que no caben en un Excel, con asistencia de la IA.",
     externalLink: "https://centroredes.org.ar/index.php/sql-y-sqlite/",
     content: {
       fullTitle: "SQLite en la era de la IA",
@@ -841,7 +928,7 @@ export const COURSES: Course[] = [
       area: "Ciencia de Datos",
       audience: "Toda persona que se interese en trabajar con bases de datos. No se requieren conocimientos previos.",
       description: "\"SQLite en la era de la IA\" enseña a gestionar bases de datos empleando la IA como ayudante. SQL es el lenguaje preferido para gestionar bases de datos (BD). Este curso tiene el doble propósito de enseñar SQL y el diseño de BD. La primera sección está dedicada al lenguaje SQL: cómo recuperar información de una tabla y cómo crear nuevas tablas. La segunda sección se dedica a bases de datos relacionales: diseño eficiente minimizando la redundancia y la dependencia funcional. La IA interviene activamente: ustedes darán instrucciones (prompts) a la IA para que escriba código SQL que luego analizarán valiéndose de los apuntes, videos y consultas con la IA.",
-      modality: "Curso virtual con acceso 24/7. Instructivos escritos complementados con videos. Fuertemente práctico con numerosos ejercicios. Se emplean las plataformas ChatGPT y Gemini en sus versiones gratuitas.",
+      modality: "Curso virtual con acceso 24/7. Videos complementados con scripts en cuadernos Jupyter, y ejercicios de codificación. Se ofrecen dos reuniones sincrónicas en horario a convenir, para brindar orientación y para aclarar dudas sobre el Proyecto Personal. El acceso al material del curso permanece abierto por unos seis meses después del cierre.",
       modules: [
         {
           title: "Módulo 1 — Presentación de SQL y SQLiteStudio",
@@ -918,11 +1005,11 @@ export const COURSES: Course[] = [
     }
   },
   { 
-    id: 7, 
-    title: "Machine Learning en Ciencias Sociales", 
-    slug: "machine-learning",
-    category: "ML", 
-    price: "$90.000", 
+    id: 13, 
+    title: "Machine Learning en Ciencias Sociales y de la Salud", 
+    slug: "machine-learning", 
+    category: "Inteligencia Artificial", 
+    price: "$99.900", 
     track: "data", 
     desc: "Aplica modelos predictivos y clasificación a datasets complejos de salud y sociedad.",
     externalLink: "https://centroredes.org.ar/index.php/machine-learning/",
@@ -932,9 +1019,9 @@ export const COURSES: Course[] = [
       hours: "96 horas",
       instructor: "Dr. Gustavo González Bonorino",
       area: "Ciencia de Datos",
-      audience: "Todo personal que integra, o aspira a integrar, el sistema de salud. También es una propuesta de capacitación para otros interesados en conocer técnicas de manejo de datos orientadas a los procesos de toma de decisiones.",
+      audience: "Todo personal que trabaja con datos en las ciencias sociales y de la salud. También es una propuesta de capacitación para otros interesados en conocer técnicas de manejo de datos orientadas a los procesos de toma de decisiones.",
       description: "Las ciencias sociales y de la salud generan anualmente enormes volúmenes de datos, y por ello son objetivos prioritarios del aprendizaje automático (machine learning), ya que este ofrece numerosas técnicas para la gestión y el análisis de la información que producen. Se estima que en unos 15 años dos tercios de las actividades en salud serán gestionadas por técnicas de aprendizaje automático. Este curso introduce al aprendizaje automático y muestra cómo aplicar variadas técnicas en las ciencias sociales y de la salud. Los ejemplos se desarrollan en Python empleando cuadernos Jupyter Notebook.",
-      modality: "Curso virtual práctico documentado con ejemplos no triviales. Cada técnica se presenta con el mínimo necesario de teoría y se enseña paso a paso cómo aplicarla con datos reales. Acceso 24/7 a la plataforma sin restricciones de horario.",
+      modality: "Curso virtual con acceso 24/7. Videos complementados con scripts en cuadernos Jupyter, y ejercicios de codificación. Se ofrecen dos reuniones sincrónicas en horario a convenir, para brindar orientación y para aclarar dudas sobre el Proyecto Personal. El acceso al material del curso permanece abierto por unos seis meses después del cierre.",
       modules: [
         {
           title: "Parte I — Datos, Ciencia de Datos y Aprendizaje Automático",
@@ -992,16 +1079,16 @@ export const COURSES: Course[] = [
       evaluation: "La evaluación se basa en el desempeño a lo largo del curso y en la elaboración de un proyecto propio bajo tutoría. Centro REDES emite certificados de Participación y, opcionalmente, de Aprobación con evaluación numérica."
     },
     pricing: {
-      installmentPrice: "$50.000",
-      paymentFullUrl: "/",
-      paymentInstallmentUrl: "/",
+      installmentPrice: "$55.500",
+      paymentFullUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/30f717e7-5056-4c53-8b5d-b672b18b00a4/payment-option-form/?source=link&preference-id=104981320-8f29922e-8d8a-4902-a63d-b3f683b651ec&router-request-id=428b5cb4-667d-4b24-a767-ecbef5b054ab&p=122fdb57b297b4c21aa1bd8f7e79ecda",
+      paymentInstallmentUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/53e9ce17-20eb-4d0c-81d4-7ebe7f3338ca/payment-option-form/?source=link&preference-id=104981320-f802273a-2f12-4d66-a232-e0ed06dbb7a9&router-request-id=735179b0-2ff4-4756-8188-1a4e8b1d5cbb&p=122fdb57b297b4c21aa1bd8f7e79ecda",
     }
   },
   { 
-    id: 15, 
+    id: 14, 
     title: "Python en la era de la IA", 
     slug: "python-ia",
-    category: "ML", 
+    category: "Programación", 
     price: "$99.900", 
     track: "data", 
     desc: "Aprende Python asistido con la IA.",
@@ -1014,7 +1101,7 @@ export const COURSES: Course[] = [
       area: "Ciencia de Datos",
       audience: "La naturaleza multipropósito de Python, unido a la facilidad de aprendizaje, lo hacen atractivo tanto para jóvenes estudiantes como para profesionales formados.",
       description: "\"Python en la era de la IA\" enseña a programar en Python empleando la IA como ayudante. La incorporación de la IA a tiempo completo exige implementar una metodología de enseñanza radicalmente diferente. En este curso el protagonismo recae en el alumno, asociado con la IA, y el docente oficia de árbitro, de mediador. Ustedes darán instrucciones (prompts) a la IA para que escriba código y lo analizarán valiéndose de los apuntes y videos. Se adopta el aprendizaje por demanda, es decir, que el código les exija qué aprender y cuándo aprender. Este curso está especialmente dirigido a quienes deseen emplear Python en programación científica.",
-      modality: "Curso virtual práctico con gran cantidad de videos complementados con scripts en cuadernos Jupyter. Una clase sincrónica en horario a convenir para Proyecto Personal. Acceso 24/7 a la plataforma.",
+      modality: "Curso virtual con acceso 24/7. Videos complementados con scripts en cuadernos Jupyter, y ejercicios de codificación. Se ofrecen dos reuniones sincrónicas en horario a convenir, para brindar orientación y para aclarar dudas sobre el Proyecto Personal. El acceso al material del curso permanece abierto por unos seis meses después del cierre.",
       modules: [
         {
           title: "Módulo 1 — Introducción y metodología",
@@ -1082,16 +1169,16 @@ export const COURSES: Course[] = [
   
   // TRACK: AGUA & AMBIENTE
   { 
-    id: 9, 
+    id: 15, 
     title: "Modelos Hidrológicos HEC-HMS", 
     slug: "hec-hms",
-    category: "Hidro", 
+    category: "Hidrología", 
     price: "$100.000", 
     track: "water", 
     desc: "Simulación de procesos de lluvia-escorrentía para diseño de obras y prevención de inundaciones.",
     externalLink: "https://centroredes.org.ar/index.php/hec-hms/",
     content: {
-      fullTitle: "Modelos hidrológicos con HEC-HMS, potenciado con ChatGPT",
+      fullTitle: "Modelos hidrológicos con HEC-HMS",
       duration: "6 semanas",
       hours: "72 horas",
       instructor: "Dr. Gustavo González Bonorino",
@@ -1162,10 +1249,10 @@ export const COURSES: Course[] = [
     }
   },
   { 
-    id: 10, 
+    id: 16, 
     title: "Modelado Hidráulico HEC-RAS", 
     slug: "hec-ras",
-    category: "Hidro", 
+    category: "Hidráulica", 
     price: "$100.000", 
     track: "water", 
     desc: "Estándar mundial para modelado de ríos, canales y áreas de inundación.",
@@ -1240,7 +1327,100 @@ export const COURSES: Course[] = [
       paymentInstallmentUrl: "/",
     }
   },
+  { 
+    id: 17, 
+    title: "Modelización de redes hidráulicas presurizadas con EPANET", 
+    slug: "epanet",
+    category: "Hidráulica", 
+    price: "$99.900", 
+    track: "water", 
+    desc: "Simulación del flujo de agua en redes de cañerías bajo presión.",
+    externalLink: "https://centroredes.org.ar/index.php/epanet/",
+    content: {
+      fullTitle: "Modelización de redes hidráulicas presurizadas con EPANET",
+      duration: "6 semanas",
+      hours: "72 horas",
+      instructor: "Dr. Gustavo González Bonorino",
+      area: "Hidráulica",
+      audience: "Profesionales y estudiantes interesados en modelación de flujo de agua en redes hidráulicas presurizadas. Incluye transporte de contaminates.",
+      description: "El programa EPANET ha sido diseñado por Lewis Rossman y colaboradores. Numerosos ejercicios resuelven problemas reales de simulación hidráulica. ",
+      modality: "Curso virtual con acceso 24/7. Consultas por Foro 24/7, opción de Proyecto Personal, y dos reuniones sincrónicas al promediar el curso. Material presentado en videos complementados con ejercicios con y sin guía.",
+      modules: [
+        {
+          title: "Módulo 1 - Introducción al diseño de una red hidráulica en EPANET",
+          topics: [
+            "Componentes puntuales - Nudos, Reservorios y Depósitos.",
+            "Componentes lineales - Tuberías, Válvulas y Bombas.",
+            "Componentes accesorios - Curvas de comportamiento y de modulación, Reglas de control.",
+            "Diseño de una red en pantalla.",
+            "Archivos de datos de entrada.",
+            "Ejecución de una simulación.",
+            "Visualización de los resultados.",
+          ]
+        },
+        {
+          title: "Módulo 2.- Simulaciones en régimen estacionario",
+          topics: [
+            "Redes alimentadas por gravedad.",
+            "Inserción de quiebres de presión.",
+            "Inserción y parameterización de bombas.",
+            "Redes alimentadas por bombas.",
+            "Inserción y parameterización de válvulas.",
+            "Empleo de un mapa de fondo para el diseño.",
+          ]
+        },
+        {
+          title: "Módulo 3.- Simulaciones en régimen estacionario",
+          topics: [
+            "Incorporación de bombas centrífugas.",
+            "Simular curvas de consigna.",
+            "Modulación de la demanda.",
+            "Inserción de válvulas.",
+            "Simulación de emergencia.",
+            "Simulación de bombeo desde pozo de agua.",
+            "Red de riego por aspersores.",
+          ]
+        },
+        {
+          title: "Módulo 4.- Simulaciones en régimen extendido",
+          topics: [
+            "Curvas de modulación de la demanda, simples y múltiples.",
+            "Red con bomba y válvulas.",
+            "Comportamiento hidráulico de un depósito. Comparación con embalses.",
+            "Controles programáticos, sencillos y lógicos.",
+            "Construir una red sobre imagen georreferenciada.",
+          ]
+        },
+        {
+          title: "Módulo 5.- Simulaciones de calidad del agua",
+          topics: [
+            "Métodos de simulación en EPANET. Reacciones de pared y en flujo.",
+            "Modos de inyección de cloro en la red.",
+            "Dilución del cloro en la red.",
+            "Tiempo de residencia.",
+            "Discriminación de aportes a una red.",
+            "Calibración de una corrida de calidad.",
+          ]
+        },
+        {
+          title: "Módulo 6.- Ejercicio de síntesis y futuro",
+          topics: [
+            "Red de agua potable en la Ciudad de Makkah, Arabia Saudita.",
+            "EPyT - Combinar EPANET con Python.",
+          ]
+        }
+      ],
+      requirements: "No se requiere experiencia con el programa EPANET, pero sí se requiere conocimientos de hidráulica. El software es gratuito.",
+      evaluation: "Centro REDES emite certificados de Participación y, opcionalmente, de Aprobación con evaluación numérica."
+    },
+    pricing: {
+      installmentPrice: "$55.500",
+      paymentFullUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/484ab973-a18c-47e6-acac-cee7a378e0ec/payment-option-form/?source=link&preference-id=104981320-4379c4f1-184f-4fe3-bca6-50d6eaf08b0e&router-request-id=4f54c368-86bb-4de5-9504-38aa28aae1db&p=122fdb57b297b4c21aa1bd8f7e79ecda",
+      paymentInstallmentUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/a7640ac7-03ce-4258-98f9-7d87ff9ac174/payment-option-form/?source=link&preference-id=104981320-699413da-a46c-4d21-9bcb-63bb24fab35d&router-request-id=c12def47-a331-4268-8622-648369c7585b&p=122fdb57b297b4c21aa1bd8f7e79ecda",
+    }
+  },
 ];
+
 
 export const MILESTONES: Milestone[] = [
   { year: "1979", title: "Ph.D. en Canadá", tool: "Mapas a Mano", desc: "Doctorado en McMaster University. Geología estructural analógica." },
