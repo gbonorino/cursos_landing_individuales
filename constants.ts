@@ -329,7 +329,7 @@ export const COURSES: Course[] = [
     title: "Imágenes Satelitales (Software Libre)", 
     slug: "imagenes-satelitales",
     category: "Satélites", 
-    price: "$90.000", 
+    price: "$99.900", 
     track: "geo", 
     desc: "Domina el procesamiento de Landsat y Sentinel para monitoreo ambiental sin costos de licencia.",
     externalLink: "https://centroredes.org.ar/index.php/imagenes-satelitales-2/",
@@ -401,7 +401,7 @@ export const COURSES: Course[] = [
       evaluation: "Centro REDES emite certificados de Participación y, opcionalmente, de Aprobación con evaluación numérica. Estos últimos requieren la presentación de un Proyecto Personal sobre un tema a elección del participante."
     },
     pricing: {
-      installmentPrice: "$50.000",
+      installmentPrice: "$55.500",
       paymentFullUrl: "/",
       paymentInstallmentUrl: "/",
     }
@@ -1173,7 +1173,7 @@ export const COURSES: Course[] = [
     title: "Modelos Hidrológicos HEC-HMS", 
     slug: "hec-hms",
     category: "Hidrología", 
-    price: "$100.000", 
+    price: "$99.900", 
     track: "water", 
     desc: "Simulación de procesos de lluvia-escorrentía para diseño de obras y prevención de inundaciones.",
     externalLink: "https://centroredes.org.ar/index.php/hec-hms/",
@@ -1243,7 +1243,7 @@ export const COURSES: Course[] = [
       evaluation: "Centro REDES emite certificados de Participación y, opcionalmente, de Aprobación con evaluación numérica."
     },
     pricing: {
-      installmentPrice: "$55.600",
+      installmentPrice: "$55.500",
       paymentFullUrl: "/",
       paymentInstallmentUrl: "/",
     }
@@ -1253,7 +1253,7 @@ export const COURSES: Course[] = [
     title: "Modelado Hidráulico HEC-RAS", 
     slug: "hec-ras",
     category: "Hidráulica", 
-    price: "$100.000", 
+    price: "$99.900", 
     track: "water", 
     desc: "Estándar mundial para modelado de ríos, canales y áreas de inundación.",
     externalLink: "https://centroredes.org.ar/index.php/hec-ras/",
@@ -1322,7 +1322,7 @@ export const COURSES: Course[] = [
       evaluation: "Centro REDES emite certificados de Participación y, opcionalmente, de Aprobación con calificación numérica. Este último requiere la presentación de un Proyecto Personal sobre un tema a elección del participante."
     },
     pricing: {
-      installmentPrice: "$55.600",
+      installmentPrice: "$55.500",
       paymentFullUrl: "/",
       paymentInstallmentUrl: "/",
     }
