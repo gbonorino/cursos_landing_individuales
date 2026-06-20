@@ -481,7 +481,7 @@ export const COURSES: Course[] = [
     },
     pricing: {
       installmentPrice: "$59.990",
-      paymentFullUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/cd5ce519-d31c-4462-a87e-228dc35dddd5/payment-option-form/?source=link&preference-id=104981320-cfadfbf5-a94a-4ccc-97e9-d2446e4a2a27&router-request-id=349b2b2d-7916-4b5b-853e-156ff635b437&p=122fdb57b297b4c21aa1bd8f7e79ecda",
+      paymentFullUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/dd54ab23-acc5-4641-9f2f-23e3f088c6bd/payment-option-form/?source=link&preference-id=104981320-56a454f2-c3f4-4483-941d-eca81a32d6aa&router-request-id=d01c0305-16f4-4f9e-8cc0-a5c7b17dcfd0&p=7987b7fffd88c311c4269b96629116cd",
       paymentInstallmentUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/b92e8053-d5fd-431b-b315-5fd4b4d303d1/payment-option-form/?source=link&preference-id=104981320-cd448345-0e06-4d11-a497-1a7f99d682e0&router-request-id=b3c82c18-519a-4674-91e0-cff561b9d547&p=122fdb57b297b4c21aa1bd8f7e79ecda",
     }
   },
@@ -742,7 +742,7 @@ export const COURSES: Course[] = [
     title: "Programación aplicada con R", 
     slug: "programacion-r",
     category: "Programación", 
-    price: "$90.000", 
+    price: "$99.900", 
     track: "data", 
     desc: "Análisis estadístico robusto y gráficos de publicación científica (ggplot2) para investigadores.",
     externalLink: "https://centroredes.org.ar/index.php/programacion-en-r/",
@@ -763,7 +763,7 @@ export const COURSES: Course[] = [
             "Operadores",
             "La interfaz gráfica de RStudio",
             "Carga de archivos y rutas de enlace",
-            "Paquetes",
+            "Paquetes (tidyverse)",
             "Estructuras y tipos de datos: vectores, matrices, arrays, listas, marcos de datos, factores, funciones"
           ]
         },
@@ -780,34 +780,40 @@ export const COURSES: Course[] = [
           ]
         },
         {
-          title: "Módulo 3 — Presentaciones visuales y programación",
+          title: "Módulo 3 — Códigos de control de flujo",
           topics: [
-            "Gráficos y series temporales",
             "Iteración y bucles condicionales",
-            "Familia apply(), lapply(), sapply(), tapply()",
+            "Familia apply(), lapply(), sapply(), tapply()"
+          ]
+        },
+        {
+          title: "Módulo 4 — Gestión de tablas de datos",
+          topics: [
+            "Importar/Exportar datos",
+            "Filtrado de datos",
+            "Unión de tablas",
+            "Formatos ancho y largo",
+            "Valores faltantes"
+          ]
+        },
+        {
+          title: "Módulo 5 — Técnicas de visualización de datos",
+          topics: [
+            "Visualización de datos (ggplot2)",
+            "Gráficos (barras, líneas, dispersión, boxplot, etc.)",
+            "Series temporales",
             "Scripts y buenas prácticas en programación"
           ]
         },
         {
-          title: "Módulo 4 — Manejo de datos espaciales",
-          topics: [
-            "Manejo de datos espaciales con R"
-          ]
-        },
-        {
-          title: "Módulo 5 — Aplicaciones de R (parte 1)",
+          title: "Módulo 6 — Aplicaciones de R",
           topics: [
             "Fundamentos de las técnicas aplicadas",
             "Minería de datos",
             "Series temporales",
             "Agricultura",
             "Ciencias de la Salud",
-            "Ciencias de la Tierra y ambientales"
-          ]
-        },
-        {
-          title: "Módulo 6 — Aplicaciones de R (parte 2)",
-          topics: [
+            "Ciencias de la Tierra y ambientales",
             "Ciencias Económicas",
             "Ciencias Sociales",
             "Ciencias Químicas e Ingeniería",
@@ -819,14 +825,14 @@ export const COURSES: Course[] = [
       evaluation: "Centro REDES otorga certificados de Participación y de Aprobación. El certificado de Aprobación lleva una calificación numérica y exige la presentación de un Proyecto Personal."
     },
     pricing: {
-      installmentPrice: "$50.000",
-      paymentFullUrl: "/",
-      paymentInstallmentUrl: "/",
+      installmentPrice: "$55,500 ",
+      paymentFullUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/34abf9f2-3c3e-457a-bab4-09872020877e/payment-option-form/?source=link&preference-id=104981320-1f4e6422-b3cb-4239-a3e9-db5fec6234bb&router-request-id=321ede13-fd26-44f0-9b57-3aa0b80e395b&p=7987b7fffd88c311c4269b96629116cd",
+      paymentInstallmentUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/5b5289fe-2cf9-4848-a1a9-32d70868a953/payment-option-form/?source=link&preference-id=104981320-a6cb96d6-c8ae-4c7a-a59a-d1b02006fac8&router-request-id=c49830d6-d0a5-45e5-9db1-0f63386964dc&p=7987b7fffd88c311c4269b96629116cd",
     }
   },
   { 
     id: 11, 
-    title: "Epidemiología estadística y espacial con R",
+    title: "Epidemiología estadística con R",
     slug: "programacion-r",
     category: "Programación", 
     price: "$99.900", 
@@ -839,78 +845,68 @@ export const COURSES: Course[] = [
       hours: "96 horas",
       instructor: "Dr. Gustavo González Bonorino",
       area: "Ciencia de Datos",
-      audience: "Para quien desee aprender a programar en R, o simplemente utilizarlo en sus labores profesionales, este curso les dará el conocimiento necesario para hacerlo.",
-      description: "El lenguaje R es particularmente aplicable en Estadística y en minería de datos. Junto con Python, R es el lenguaje más requerido en Ciencia de Datos. En una primera parte se hace una concisa pero exhaustiva presentación del lenguaje R, hasta haber adquirido el conocimiento para trabajar con R. En una segunda parte se aplica R en numerosos casos reales tomados de muy diversas disciplinas. Los fundamentos teóricos de las variadas técnicas matemáticas y estadísticas empleadas en los ejemplos se dan sucintamente. Se incorpora ChatGPT para consultas generales y para ayuda con la codificación.",
+      audience: "Este curso está diseñado para profesionales e investigadores de la salud (médicos, epidemiólogos, enfermeros y biólogos) y analistas de datos en salud pública que ya dominan la clínica epidemiológica y los fundamentos de R, pero necesitan dominar el modelado estadístico avanzado, la inferencia causal y el análisis de supervivencia para diseñar, analizar y publicar estudios observacionales y ensayos clínicos de manera autónoma.",
+      description: "Curso avanzado sobre modelado estadístico de datos epidemiológicos en R. Enfoque práctico. Cubre el cálculo automatizado de indicadores, el análisis de supervivencia (Kaplan-Meier), y modelos de regresión logística. Además, introduce el formato OMOP CDM para la estandarización de datos en salud.",
       modality: "Curso virtual con acceso 24/7. Videos complementados con scripts en cuadernos Jupyter, y ejercicios de codificación. Se ofrecen dos reuniones sincrónicas en horario a convenir, para brindar orientación y para aclarar dudas sobre el Proyecto Personal. El acceso al material del curso permanece abierto por unos seis meses después del cierre.",
       modules: [
         {
-          title: "Módulo 1 — Operando con R y RStudio",
+          title: "Módulo 1 — Gestión y preparación de datos epidemiológicos",
           topics: [
-            "Instalación y diferencias entre R y RStudio",
-            "Operadores",
-            "La interfaz gráfica de RStudio",
-            "Carga de archivos y rutas de enlace",
-            "Paquetes",
-            "Estructuras y tipos de datos: vectores, matrices, arrays, listas, marcos de datos, factores, funciones"
+            "Limpieza y validación de datos",
+            "Reestructuración de datos (wide ↔ long)",
+            "Manejo avanzado de datos faltantes (imputación múltiple)"
+             ]
+        },
+        {
+          title: "Módulo 2 — Medidas epidemiológicas básicas",
+          topics: [
+            "Medidas de frecuencia y de asociación",
+            "Incidencia acumulada, densidad de incidencia (person-time)",
+            "Prevalencia (puntual y de período)",
+            "Medidas de asociación: Riesgo relativo (RR), odds ratio (OR), hazard ratio (HR) y Razón de Tasas (IRR)",
+            "Intervalos de confianza por métodos exactos vs aproximados",
+            "Bootstrap para estimación de incertidumbre"
           ]
         },
         {
-          title: "Módulo 2 — Propiedades y transferencia de datos",
+          title: "Módulo 3 — Curvas Epidémicas",
           topics: [
-            "Examinar y modificar propiedades de datos",
-            "Atributos y coerción",
-            "Importar/Exportar datos",
-            "Archivos en formato netCDF",
-            "Manejo de tablas de datos y unión de tablas",
-            "Manejo de valores faltantes",
-            "Manejo de fecha y hora"
+            "Modelado del crecimiento exponencial de un brote"
           ]
         },
         {
-          title: "Módulo 3 — Presentaciones visuales y programación",
+          title: "Módulo 4 — Regresión Logística",
           topics: [
-            "Gráficos y series temporales",
-            "Iteración y bucles condicionales",
-            "Familia apply(), lapply(), sapply(), tapply()",
-            "Scripts y buenas prácticas en programación"
+            "Modelado de desenlaces binarios",
+            "Interpretación de coeficientes como OR",
+            "Evaluación de bondad de ajuste (Lemeshow)"
           ]
         },
         {
-          title: "Módulo 4 — Manejo de datos espaciales",
+          title: "Módulo 5 — Análisis de supervivencia",
           topics: [
-            "Manejo de datos espaciales con R"
+            "Estimador de Kaplan-Meier",
+            "Curvas de supervivencia",
+            "Pruebas de Log-rank",
+            "Modelado de brote epidémico"
           ]
         },
         {
-          title: "Módulo 5 — Aplicaciones de R (parte 1)",
+          title: "Módulo 6 — El formato OMOP CDM",
           topics: [
-            "Fundamentos de las técnicas aplicadas",
-            "Minería de datos",
-            "Series temporales",
-            "Agricultura",
-            "Ciencias de la Salud",
-            "Ciencias de la Tierra y ambientales"
-          ]
-        },
-        {
-          title: "Módulo 6 — Aplicaciones de R (parte 2)",
-          topics: [
-            "Ciencias Económicas",
-            "Ciencias Sociales",
-            "Ciencias Químicas e Ingeniería",
-            "Aprendizaje automatizado (Machine Learning)"
+            "Introducción al formato OMOP CDM"
           ]
         }
       ],
-      requirements: "No requiere conocimientos previos de R. Se parte de cero y se construye conocimiento hasta un nivel intermedio avanzado. Los programas R y RStudio son de acceso gratuito. PC con procesador Intel i5, o de rango equivalente.",
+      requirements: "Supone conocimientos sobre epidemiología descriptiva, y conocimientos básicos de programación con R y de estadística descriptiva.",
       evaluation: "Centro REDES otorga certificados de Participación y de Aprobación. El certificado de Aprobación lleva una calificación numérica y exige la presentación de un Proyecto Personal."
     },
     pricing: {
       installmentPrice: "$55.500",
       paymentFullUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/da9c6f11-b6ae-4167-832a-1c9a70d08914/payment-option-form/?source=link&preference-id=104981320-1f4e6422-b3cb-4239-a3e9-db5fec6234bb&router-request-id=a9d355ea-6498-4a0f-a63e-80631b17afef&p=122fdb57b297b4c21aa1bd8f7e79ecda",
-      paymentInstallmentUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/4a19ca3e-8c1e-44de-b119-c60a639daee2/payment-option-form/?source=link&preference-id=104981320-a6cb96d6-c8ae-4c7a-a59a-d1b02006fac8&router-request-id=f5bb2c86-f2ef-4e33-978a-c11b93c74d92&p=122fdb57b297b4c21aa1bd8f7e79ecda",
+      paymentInstallmentUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/4a19ca3e-8c1e-44de-b119-c60a639daee2/payment-option-form/?source=link&preference-id=104981320-a6cb96d6-c8ae-4c7a-a59a-d1b02006fac8&router-request-id=f5bb2c86-f2ef-4e33-978a-c11b93c74d92&p=122fdb57b297b4c21aa1bd8f7e79ecda"
     }
-  },  
+  },
   { 
     id: 12, 
     title: "SQLite en la era de la IA", 
@@ -1001,7 +997,7 @@ export const COURSES: Course[] = [
     pricing: {
       installmentPrice: "$55.500",
       paymentFullUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/4787c214-ee1b-4140-9e5a-a19d02e59f72/payment-option-form/?source=link&preference-id=104981320-15d86275-db69-462d-9ae4-c51ba1770053&router-request-id=0aa440d8-fc82-4905-b1b1-01c2a8c992ba&p=cceaf388cdead7ca133eac0253c6cd65",
-      paymentInstallmentUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/a1e77e2a-fe67-43c4-9229-6aab97124397/payment-option-form/?source=link&preference-id=104981320-843d71d4-6a8f-4b9c-878e-52a76b4a9d9f&router-request-id=c0ece8bb-a542-435a-82ac-6c12b0ddd91d&p=cceaf388cdead7ca133eac0253c6cd65",
+      paymentInstallmentUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/a1e77e2a-fe67-43c4-9229-6aab97124397/payment-option-form/?source=link&preference-id=104981320-843d71d4-6a8f-4b9c-878e-52a76b4a9d9f&router-request-id=c0ece8bb-a542-435a-82ac-6c12b0ddd91d&p=cceaf388cdead7ca133eac0253c6cd65"
     }
   },
   { 
@@ -1081,7 +1077,7 @@ export const COURSES: Course[] = [
     pricing: {
       installmentPrice: "$55.500",
       paymentFullUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/30f717e7-5056-4c53-8b5d-b672b18b00a4/payment-option-form/?source=link&preference-id=104981320-8f29922e-8d8a-4902-a63d-b3f683b651ec&router-request-id=428b5cb4-667d-4b24-a767-ecbef5b054ab&p=122fdb57b297b4c21aa1bd8f7e79ecda",
-      paymentInstallmentUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/53e9ce17-20eb-4d0c-81d4-7ebe7f3338ca/payment-option-form/?source=link&preference-id=104981320-f802273a-2f12-4d66-a232-e0ed06dbb7a9&router-request-id=735179b0-2ff4-4756-8188-1a4e8b1d5cbb&p=122fdb57b297b4c21aa1bd8f7e79ecda",
+      paymentInstallmentUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/53e9ce17-20eb-4d0c-81d4-7ebe7f3338ca/payment-option-form/?source=link&preference-id=104981320-f802273a-2f12-4d66-a232-e0ed06dbb7a9&router-request-id=735179b0-2ff4-4756-8188-1a4e8b1d5cbb&p=122fdb57b297b4c21aa1bd8f7e79ecda"
     }
   },
   { 
@@ -1163,7 +1159,7 @@ export const COURSES: Course[] = [
     pricing: {
       installmentPrice: "$55.500",
       paymentFullUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/df7d8ed4-f153-4101-b727-a83403447f22/payment-option-form/?source=link&preference-id=104981320-ceb5d415-3d03-405c-80c2-b2c725ad08e5&router-request-id=41d808c1-1d24-41cd-95d7-4421dba4918b&p=cceaf388cdead7ca133eac0253c6cd65",
-      paymentInstallmentUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/4a38a038-3b34-4c9a-a09c-2edd427f85a7/payment-option-form/?source=link&preference-id=104981320-12fc6c03-5eaf-4637-bddd-c5249cb3d34c&router-request-id=c9d27848-8441-4c28-befd-d8cb869d176e&p=cceaf388cdead7ca133eac0253c6cd65",
+      paymentInstallmentUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/4a38a038-3b34-4c9a-a09c-2edd427f85a7/payment-option-form/?source=link&preference-id=104981320-12fc6c03-5eaf-4637-bddd-c5249cb3d34c&router-request-id=c9d27848-8441-4c28-befd-d8cb869d176e&p=cceaf388cdead7ca133eac0253c6cd65"
     }
   },
   
@@ -1244,8 +1240,8 @@ export const COURSES: Course[] = [
     },
     pricing: {
       installmentPrice: "$55.500",
-      paymentFullUrl: "/",
-      paymentInstallmentUrl: "/",
+      paymentFullUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/2e3dfc7a-a402-451d-a9ca-c54a123c6a28/payment-option-form/?source=link&preference-id=104981320-dce3b88e-4f8b-4f89-848b-56b8adc8743b&router-request-id=6d390c17-19da-4eca-882a-32f957d64582&p=7987b7fffd88c311c4269b96629116cd",
+      paymentInstallmentUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/0b4d2796-1d0a-4b5a-991d-35f39fe345a7/payment-option-form/?source=link&preference-id=104981320-22e46a50-0817-4462-9dfd-94d2ed95ad9c&router-request-id=36185a9f-a16a-477e-85a7-0f1338645416&p=7987b7fffd88c311c4269b96629116cd"
     }
   },
   { 
@@ -1323,8 +1319,8 @@ export const COURSES: Course[] = [
     },
     pricing: {
       installmentPrice: "$55.500",
-      paymentFullUrl: "/",
-      paymentInstallmentUrl: "/",
+      paymentFullUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/f6ee8cce-68da-49f4-a68a-979972f666d8/payment-option-form/?source=link&preference-id=104981320-4404d31d-502e-4d6b-a09b-0317f6130070&router-request-id=80c4de3b-da0c-4d66-ac7b-e8072717c446&p=7987b7fffd88c311c4269b96629116cd",
+      paymentInstallmentUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/c59f6e56-d5fb-41e5-93da-0169638810c4/payment-option-form/?source=link&preference-id=104981320-7d5491b2-2383-4264-a868-a4355039132b&router-request-id=2a745dcf-5ceb-4ae1-8440-ac7c4ff9a223&p=7987b7fffd88c311c4269b96629116cd"
     }
   },
   { 
@@ -1349,64 +1345,64 @@ export const COURSES: Course[] = [
         {
           title: "Módulo 1 - Introducción al diseño de una red hidráulica en EPANET",
           topics: [
-            "Componentes puntuales - Nudos, Reservorios y Depósitos.",
-            "Componentes lineales - Tuberías, Válvulas y Bombas.",
-            "Componentes accesorios - Curvas de comportamiento y de modulación, Reglas de control.",
-            "Diseño de una red en pantalla.",
-            "Archivos de datos de entrada.",
-            "Ejecución de una simulación.",
-            "Visualización de los resultados.",
+            "Componentes puntuales - Nudos, Reservorios y Depósitos",
+            "Componentes lineales - Tuberías, Válvulas y Bombas",
+            "Componentes accesorios - Curvas de comportamiento y de modulación, Reglas de control",
+            "Diseño de una red en pantalla",
+            "Archivos de datos de entrada",
+            "Ejecución de una simulación",
+            "Visualización de los resultados"
           ]
         },
         {
           title: "Módulo 2.- Simulaciones en régimen estacionario",
           topics: [
-            "Redes alimentadas por gravedad.",
-            "Inserción de quiebres de presión.",
-            "Inserción y parameterización de bombas.",
-            "Redes alimentadas por bombas.",
-            "Inserción y parameterización de válvulas.",
-            "Empleo de un mapa de fondo para el diseño.",
+            "Redes alimentadas por gravedad",
+            "Inserción de quiebres de presión",
+            "Inserción y parameterización de bombas",
+            "Redes alimentadas por bombas",
+            "Inserción y parameterización de válvulas",
+            "Empleo de un mapa de fondo para el diseño"
           ]
         },
         {
           title: "Módulo 3.- Simulaciones en régimen estacionario",
           topics: [
-            "Incorporación de bombas centrífugas.",
-            "Simular curvas de consigna.",
-            "Modulación de la demanda.",
-            "Inserción de válvulas.",
-            "Simulación de emergencia.",
-            "Simulación de bombeo desde pozo de agua.",
-            "Red de riego por aspersores.",
+            "Incorporación de bombas centrífugas",
+            "Simular curvas de consigna",
+            "Modulación de la demanda",
+            "Inserción de válvulas",
+            "Simulación de emergencia",
+            "Simulación de bombeo desde pozo de agua",
+            "Red de riego por aspersores"
           ]
         },
         {
           title: "Módulo 4.- Simulaciones en régimen extendido",
           topics: [
-            "Curvas de modulación de la demanda, simples y múltiples.",
-            "Red con bomba y válvulas.",
-            "Comportamiento hidráulico de un depósito. Comparación con embalses.",
-            "Controles programáticos, sencillos y lógicos.",
-            "Construir una red sobre imagen georreferenciada.",
+            "Curvas de modulación de la demanda, simples y múltiples",
+            "Red con bomba y válvulas",
+            "Comportamiento hidráulico de un depósito. Comparación con embalses",
+            "Controles programáticos, sencillos y lógicos",
+            "Construir una red sobre imagen georreferenciada"
           ]
         },
         {
           title: "Módulo 5.- Simulaciones de calidad del agua",
           topics: [
-            "Métodos de simulación en EPANET. Reacciones de pared y en flujo.",
-            "Modos de inyección de cloro en la red.",
-            "Dilución del cloro en la red.",
-            "Tiempo de residencia.",
-            "Discriminación de aportes a una red.",
-            "Calibración de una corrida de calidad.",
+            "Métodos de simulación en EPANET. Reacciones de pared y en flujo",
+            "Modos de inyección de cloro en la red",
+            "Dilución del cloro en la red",
+            "Tiempo de residencia",
+            "Discriminación de aportes a una red",
+            "Calibración de una corrida de calidad"
           ]
         },
         {
           title: "Módulo 6.- Ejercicio de síntesis y futuro",
           topics: [
-            "Red de agua potable en la Ciudad de Makkah, Arabia Saudita.",
-            "EPyT - Combinar EPANET con Python.",
+            "Red de agua potable en la Ciudad de Makkah, Arabia Saudita",
+            "EPyT - Combinar EPANET con Python"
           ]
         }
       ],
@@ -1416,9 +1412,9 @@ export const COURSES: Course[] = [
     pricing: {
       installmentPrice: "$55.500",
       paymentFullUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/484ab973-a18c-47e6-acac-cee7a378e0ec/payment-option-form/?source=link&preference-id=104981320-4379c4f1-184f-4fe3-bca6-50d6eaf08b0e&router-request-id=4f54c368-86bb-4de5-9504-38aa28aae1db&p=122fdb57b297b4c21aa1bd8f7e79ecda",
-      paymentInstallmentUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/a7640ac7-03ce-4258-98f9-7d87ff9ac174/payment-option-form/?source=link&preference-id=104981320-699413da-a46c-4d21-9bcb-63bb24fab35d&router-request-id=c12def47-a331-4268-8622-648369c7585b&p=122fdb57b297b4c21aa1bd8f7e79ecda",
+      paymentInstallmentUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/a7640ac7-03ce-4258-98f9-7d87ff9ac174/payment-option-form/?source=link&preference-id=104981320-699413da-a46c-4d21-9bcb-63bb24fab35d&router-request-id=c12def47-a331-4268-8622-648369c7585b&p=122fdb57b297b4c21aa1bd8f7e79ecda"
     }
-  },
+  }
 ];
 
 
