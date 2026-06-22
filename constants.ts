@@ -903,8 +903,8 @@ export const COURSES: Course[] = [
     },
     pricing: {
       installmentPrice: "$55.500",
-      paymentFullUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/da9c6f11-b6ae-4167-832a-1c9a70d08914/payment-option-form/?source=link&preference-id=104981320-1f4e6422-b3cb-4239-a3e9-db5fec6234bb&router-request-id=a9d355ea-6498-4a0f-a63e-80631b17afef&p=122fdb57b297b4c21aa1bd8f7e79ecda",
-      paymentInstallmentUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/4a19ca3e-8c1e-44de-b119-c60a639daee2/payment-option-form/?source=link&preference-id=104981320-a6cb96d6-c8ae-4c7a-a59a-d1b02006fac8&router-request-id=f5bb2c86-f2ef-4e33-978a-c11b93c74d92&p=122fdb57b297b4c21aa1bd8f7e79ecda"
+      paymentFullUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/f7dac5fb-8b70-4c58-8d58-90e0c3f35d69/payment-option-form/?source=link&preference-id=104981320-7558dfe5-1c1f-4064-9a63-d79fe733f34c&router-request-id=7d182db8-ae2f-45cc-8f4a-528cf3a00600&p=3b51f16ecd7673ef03f50dc1e6dcd552",
+      paymentInstallmentUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/aa6dccf6-3e57-4a49-b75e-994eda91c62a/payment-option-form/?source=link&preference-id=104981320-964ea106-b399-4f21-b90f-82a169ffc09c&router-request-id=60eceb80-ec18-420b-a6ea-ec7cf8693a22&p=3b51f16ecd7673ef03f50dc1e6dcd552"
     }
   },
   { 
