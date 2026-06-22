@@ -833,12 +833,12 @@ export const COURSES: Course[] = [
   { 
     id: 11, 
     title: "Epidemiología estadística con R",
-    slug: "programacion-r",
-    category: "Programación", 
+    slug: "epidemiologia-r",
+    category: "Estadística", 
     price: "$99.900", 
     track: "data", 
     desc: "Introducción a la aplicación del lenguaje R en el análisis de datos epidemiológicos.",
-    externalLink: "https://centroredes.org.ar/index.php/epi-r/",
+    externalLink: "https://centroredes.org.ar/index.php/epidemiologia-estadistica/",
     content: {
       fullTitle: "Epidemiología estadística con R",
       duration: "6 semanas",
