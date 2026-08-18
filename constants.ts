@@ -422,13 +422,13 @@ export const COURSES: Course[] = [
       instructor: "Dr. Gustavo González Bonorino",
       area: "Análisis de Datos Geoespaciales",
       audience: "Toda persona que se interese por manipular imágenes digitales. Puede ser por turismo, control de vegetación, monitoreo de expansión urbana, mapas de uso del suelo, y otros propósitos. No se requiere conocimiento previo en el manejo de Google Earth Engine, pero es muy conveniente tener familiaridad con los diversos productos satelitales.",
-      description: "Google Earth Engine es mucho más que una plataforma SIG. Es una nutrida base de datos con miles de productos fácilmente accesibles, acompañada por una panoplia de poderosos algoritmos que se ejecutan en la nube, sin exigencia para nuestra PC, en respuesta a sencillos códigos en JavaScript. Google Earth Engine facilita trabajar con múltiples productos satelitales para desarrollar series temporales, procesar clasificación supervisada y no supervisada, calcular índices espectrales y muchas otras tareas. Incorporar Google Earth Engine a vuestro bagaje de herramientas computacionales resultará en un notorio incremento en la productividad.",
+      description: "Google Earth Engine es mucho más que una plataforma SIG. Es una nutrida base de datos con miles de productos fácilmente accesibles, acompañada por una panoplia de poderosos algoritmos que se ejecutan en la nube, sin exigencia para nuestra PC, en respuesta a sencillos códigos en JavaScript. Google Earth Engine facilita trabajar con múltiples productos satelitales para desarrollar series temporales, procesar clasificación supervisada y no supervisada, calcular índices espectrales y muchas otras tareas. Incorporar Google Earth Engine a vuestro bagaje de herramientas computacionales resultará en un notorio incremento en la productividad. En esta edición se introduce el chatbot conversacional Ask, especialmente diseñado para ayudarle con la codificación. El proceso de registro en GEE y la nube de Google puede insumir valioso tiempo de cursado. Para evitarles esta demora las instrucciones de registro están disponibles en la web pública, antes de que se inscriban.",
       modality: "Curso virtual con acceso 24/7. Consultas por Foro 24/7, opción de Proyecto Personal, y dos reuniones sincrónicas al promediar el curso. Instructivos escritos complementados con videos. Se incorpora ChatGPT para consultas generales y ayuda con la codificación.",
       modules: [
         {
           title: "Módulo 1 — Introducción a Google Earth Engine",
           topics: [
-            "ChatGPT: modo de uso y aplicaciones",
+            "Chatbot Ask: modo de uso y aplicaciones",
             "Contenido y organización del curso",
             "Acceso y operación de Google Earth Engine",
             "El explorador (EE Explorer)",
@@ -501,13 +501,14 @@ export const COURSES: Course[] = [
       instructor: "Dr. Gustavo González Bonorino",
       area: "Análisis de Datos Geoespaciales",
       audience: "Todos aquellos que consideren profesionalmente beneficioso saber compilar información geoespacial, volcarla en mapas temáticos, y procesarla con sofisticadas técnicas, como camino de costo mínimo.",
-      description: "\"QGIS Integral\" es excepcional entre los cursos de QGIS a distancia por la diversidad y aplicabilidad profesional del contenido, por el método de aprendizaje por ejercitación, y por el acompañamiento tutorial con cuestionarios y ejercicios opcionales. Merced a una laboriosa destilación de los contenidos, el curso integra conocimientos básicos y avanzados de manera que en seis semanas los participantes adquirirán un fluido manejo de QGIS, el sistema de información geográfica de acceso libre y gratuito de mayor difusión global. Se incorpora ChatGPT para consultas generales y para ayuda con la codificación.",
+      description: "/“QGIS  Análisis de datos espaciales, potenciado con ChatGPT y Claude Desktop”/ es excepcional entre los cursos de QGIS a distancia por la diversidad y aplicabilidad profesional del contenido, por el método de aprendizaje por ejercitación, apoyado en numerosos ejercicios acompañados por más de 300 páginas de instrucciones paso-a-paso, y unos cuarenta videos. A lo largo de más de 10 años de vigencia y decenas de sesiones, el curso ha destilado los contenidos, integrando conocimientos básicos y avanzados de manera que en seis semanas los participantes adquieran un fluido manejo de QGIS. Tiempo atrás se incorporó ChatGPT para tareas de consulta y revisión de código. En esta edición se refuerza la interacción de QGIS con la IA mediante varias herramientas. La más relevante es la integración de QGIS y la plataforma Claude Desktop para automatización de flujos de trabajo. Otras, como los complementos AI Edit y AI Segmentation, facilitan tareas de segmentación y de edición de imágenes. La instalación de los programas empleados en el curso puede insumir valioso tiempo de cursado. Para evitarles esta demora las instrucciones de instalación están disponibles en la web pública, antes de que se inscriban.",
       modality: "Curso virtual con acceso 24/7. Consultas por Foro 24/7, opción de Proyecto Personal, y dos reuniones sincrónicas. Aprendizaje basado en numerosos ejercicios, más de 300 páginas de instrucciones paso-a-paso, y unos cuarenta videos.",
       modules: [
         {
           title: "Módulo 1 — Presentación de QGIS",
           topics: [
             "ChatGPT: modo de uso y aplicaciones",
+            "Claude Desktop: modo de uso y aplicaciones",
             "Operando con QGIS y complementos (plugins)",
             "Carga de datos: ASCII, vectoriales, ráster y sus propiedades",
             "Sistemas de coordenadas y proyección de mapas (SRC); reproyección",
