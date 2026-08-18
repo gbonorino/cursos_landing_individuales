@@ -408,7 +408,7 @@ export const COURSES: Course[] = [
   },
   { 
     id: 6, 
-    title: "Google Earth Engine Integral", 
+    title: "Google Earth Engine potenciado con el chatbot Ask", 
     slug: "google-earth-engine",
     category: "Satélites", 
     price: "$107.982", 
@@ -416,7 +416,7 @@ export const COURSES: Course[] = [
     desc: "Procesamiento masivo de datos geoespaciales en la nube. La herramienta estándar de la industria actual.",
     externalLink: "https://centroredes.org.ar/index.php/google-earth-engine/",
     content: {
-      fullTitle: "Google Earth Engine Integral",
+      fullTitle: "Google Earth Engine potenciado con el chatbot Ask",
       duration: "6 semanas",
       hours: "60 horas",
       instructor: "Dr. Gustavo González Bonorino",
@@ -487,7 +487,7 @@ export const COURSES: Course[] = [
   },
   { 
     id: 7, 
-    title: "QGIS y Datos Espaciales", 
+    title: "QGIS y Datos Espaciales, potenciado con ChatGPT y Claude Desktop", 
     slug: "qgis-datos-espaciales",
     category: "GIS", 
     price: "$107.982", 
@@ -495,7 +495,7 @@ export const COURSES: Course[] = [
     desc: "Desde cero a mapas profesionales. La alternativa #1 a ArcGIS potenciada con plugins de IA.",
     externalLink: "https://centroredes.org.ar/index.php/qgis-inicial/",
     content: {
-      fullTitle: "QGIS Integral, análisis de datos espaciales",
+      fullTitle: "QGIS y Datos Espaciales, potenciado con ChatGPT y Claude Desktop",
       duration: "6 semanas",
       hours: "96 horas",
       instructor: "Dr. Gustavo González Bonorino",
@@ -847,11 +847,11 @@ export const COURSES: Course[] = [
       instructor: "Dr. Gustavo González Bonorino",
       area: "Ciencia de Datos",
       audience: "Este curso está diseñado para profesionales e investigadores de la salud (médicos, epidemiólogos, enfermeros y biólogos) y analistas de datos en salud pública que ya dominan la clínica epidemiológica y los fundamentos de R, pero necesitan dominar el modelado estadístico avanzado, la inferencia causal y el análisis de supervivencia para diseñar, analizar y publicar estudios observacionales y ensayos clínicos de manera autónoma.",
-      description: "Curso avanzado sobre modelado estadístico de datos epidemiológicos en R. Enfoque práctico. Cubre el cálculo automatizado de indicadores, el análisis de supervivencia (Kaplan-Meier), y modelos de regresión logística. Además, introduce el formato OMOP CDM para la estandarización de datos en salud.",
-      modality: "Curso virtual con acceso 24/7. Videos complementados con scripts en cuadernos Jupyter, y ejercicios de codificación. Se ofrecen dos reuniones sincrónicas en horario a convenir, para brindar orientación y para aclarar dudas sobre el Proyecto Personal. El acceso al material del curso permanece abierto por unos seis meses después del cierre.",
+      description: "Curso avanzado sobre modelado estadístico de datos epidemiológicos en R. Enfoque práctico. Cubre medidas de frecuencia y asociación, causalidad y regresión logística, el análisis de supervivencia (Kaplan-Meier), y modelos de transmisión de enfermades (SIR). Además, introduce el formato OMOP CDM para la estandarización de datos en salud.",
+      modality: "Curso virtual con acceso 24/7. Scripts acompañados con instructivos, y un repaso de la sintaxis de R. Se ofrecen dos reuniones sincrónicas en horario a convenir, para brindar orientación y para aclarar dudas sobre el Proyecto Personal. El acceso al material del curso permanece abierto por unos seis meses después del cierre.",
       modules: [
         {
-          title: "Módulo 1 — Gestión y preparación de datos epidemiológicos",
+          title: "Parte I — Introducción y Preprocesamiento de los datos",
           topics: [
             "Limpieza y validación de datos",
             "Reestructuración de datos (wide ↔ long)",
@@ -859,47 +859,68 @@ export const COURSES: Course[] = [
              ]
         },
         {
-          title: "Módulo 2 — Medidas epidemiológicas básicas",
+          title: "Parte II — Fundamentos, tablas de contingencia y medidas de frecuencia y asociación",
           topics: [
-            "Medidas de frecuencia y de asociación",
-            "Incidencia acumulada, densidad de incidencia (person-time)",
-            "Prevalencia (puntual y de período)",
-            "Medidas de asociación: Riesgo relativo (RR), odds ratio (OR), hazard ratio (HR) y Razón de Tasas (IRR)",
-            "Intervalos de confianza por métodos exactos vs aproximados",
-            "Bootstrap para estimación de incertidumbre"
+            "Fundamentos y datos epidemiológicos",
+            "Epidemiología y pensamiento cuantitativo",
+            "Tablas de contingencia 2x2 y 2xc",
+            "Estratificación",
+            "Tablas de diagnóstico",
+            "Medidas de frecuencia",
+            "Medidas de asociación"
           ]
         },
         {
-          title: "Módulo 3 — Curvas Epidémicas",
+          title: "Parte III — Causalidad y Regresión logística",
           topics: [
-            "Modelado del crecimiento exponencial de un brote"
+            "Causalidad y confusión",
+            "Del análisis asociativo al análisis causal",
+            "Diagramas acíclicos dirigidos (DAG)",
+            "Detección visual de Colisionadores (Colliders)",
+            "El Sesgo de Selección (Paradoja de Berkson)",
+            "Análisis estratificado",
+            "Confusión (Confounding)",
+            "Regresión logística multivariable"
           ]
         },
         {
-          title: "Módulo 4 — Regresión Logística",
+          title: "Parte IV — Análisis de supervivencia",
           topics: [
-            "Modelado de desenlaces binarios",
-            "Interpretación de coeficientes como OR",
-            "Evaluación de bondad de ajuste (Lemeshow)"
+            "Método de Kaplan-Meier",
+            "Comparación por Grupos de Edad (Log-Rank Test)",
+            "Modelo de Regresión de Cox (Hazard Ratios)",
+            "Distribución de los períodos de incubación con fitdistrplus",
+            "Estimación de la dinámica de una epidemia en tiempo real"
           ]
         },
         {
-          title: "Módulo 5 — Análisis de supervivencia",
+          title: "Parte V — Dinámica de transmisión de enfermedades infecciosas",
           topics: [
-            "Estimador de Kaplan-Meier",
-            "Curvas de supervivencia",
-            "Pruebas de Log-rank",
-            "Modelado de brote epidémico"
+            "Curvas epidémicas",  	
+            "Números reproductivos R0 y Rt",
+            "Tasa de crecimiento exponencial diaria (r)", 
+            "Probabilidad frecuentista y bayesiana",
+            "Distribución de períodos de incubación",
+            "Estimación de la dinámica de una epidemia en tiempo real",
+            "Tasa de crecimiento",
+            "El modelo SIR"
           ]
         },
         {
-          title: "Módulo 6 — El formato OMOP CDM",
+          title: "Parte VI — El Formato OMOP CDM",
           topics: [
-            "Introducción al formato OMOP CDM"
+            "Estructura en OMOP CDM",	
+            "Generación de bases de datos sintéticas",	
+            "Intersección de cohorte y tiempo de observación",
+            "Tablas outcome y denominator",
+            "Cómputo de la prevalencia puntual",
+            "Cómputo de la prevalencia de período",
+            "Cómputo de prevalencia estratificada por edad",
+            "Cómputo de incidencia"
           ]
         }
       ],
-      requirements: "Supone conocimientos sobre epidemiología descriptiva, y conocimientos básicos de programación con R y de estadística descriptiva.",
+      requirements: "Supone conocimientos sobre epidemiología descriptiva, y conocimientos básicos de programación con R (se ofrece repaso de R) y de estadística descriptiva.",
       evaluation: "Centro REDES otorga certificados de Participación y de Aprobación. El certificado de Aprobación lleva una calificación numérica y exige la presentación de un Proyecto Personal."
     },
     pricing: {
