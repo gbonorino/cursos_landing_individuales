@@ -326,13 +326,13 @@ export const COURSES: Course[] = [
   // TRACK: GEOESPACIAL
   { 
     id: 5, 
-    title: "Imágenes Satelitales (Software Libre)", 
+    title: "Procesamiento de imágenes satelitales con software libre", 
     slug: "imagenes-satelitales",
     category: "Satélites", 
-    price: "$99.900", 
+    price: "$107.982", 
     track: "geo", 
     desc: "Domina el procesamiento de Landsat y Sentinel para monitoreo ambiental sin costos de licencia.",
-    externalLink: "https://centroredes.org.ar/index.php/imagenes-satelitales-2/",
+    externalLink: "https://individuales.bonorino.academy/curso/imagenes-satelitales/",
     content: {
       fullTitle: "Procesamiento de imágenes satelitales con software libre, potenciado con ChatGPT",
       duration: "6 semanas",
@@ -401,9 +401,9 @@ export const COURSES: Course[] = [
       evaluation: "Centro REDES emite certificados de Participación y, opcionalmente, de Aprobación con evaluación numérica. Estos últimos requieren la presentación de un Proyecto Personal sobre un tema a elección del participante."
     },
     pricing: {
-      installmentPrice: "$55.500",
-      paymentFullUrl: "/",
-      paymentInstallmentUrl: "/",
+      installmentPrice: "$59.990",
+      paymentFullUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/40d141f2-db6f-415f-b4e7-f47e23e953a9/payment-option-form/?source=link&router-request-id=7c281cf0-7d96-495d-ae00-5d0aaab88343&preference-id=104981320-0b83b7fa-3cdc-4707-a62d-84e8a51ae9f2&p=d54e4573b90e7418e667b887c413757b",
+      paymentInstallmentUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/c89cfbb3-b9fd-40d6-9849-5c638c4e0689/payment-option-form/?source=link&router-request-id=61c05543-9af8-450e-8927-438081473eea&preference-id=104981320-da56f8d3-6dbf-4cbb-a918-b0437d7ebcb4&p=d54e4573b90e7418e667b887c413757b",
     }
   },
   { 
@@ -487,13 +487,13 @@ export const COURSES: Course[] = [
   },
   { 
     id: 7, 
-    title: "QGIS y Datos Espaciales, potenciado con ChatGPT y Claude Desktop", 
+    title: "Procesamiento de datos espaciales con QGIS, potenciado con ChatGPT y Claude Desktop", 
     slug: "qgis-datos-espaciales",
     category: "GIS", 
     price: "$107.982", 
     track: "geo", 
     desc: "Desde cero a mapas profesionales. La alternativa #1 a ArcGIS potenciada con plugins de IA.",
-    externalLink: "https://centroredes.org.ar/index.php/qgis-inicial/",
+    externalLink: "https://individuales.bonorino.academy/curso/qgis-datos-espaciales/",
     content: {
       fullTitle: "QGIS y Datos Espaciales, potenciado con ChatGPT y Claude Desktop",
       duration: "6 semanas",
@@ -501,7 +501,7 @@ export const COURSES: Course[] = [
       instructor: "Dr. Gustavo González Bonorino",
       area: "Análisis de Datos Geoespaciales",
       audience: "Todos aquellos que consideren profesionalmente beneficioso saber compilar información geoespacial, volcarla en mapas temáticos, y procesarla con sofisticadas técnicas, como camino de costo mínimo.",
-      description: "/“QGIS  Análisis de datos espaciales, potenciado con ChatGPT y Claude Desktop”/ es excepcional entre los cursos de QGIS a distancia por la diversidad y aplicabilidad profesional del contenido, por el método de aprendizaje por ejercitación, apoyado en numerosos ejercicios acompañados por más de 300 páginas de instrucciones paso-a-paso, y unos cuarenta videos. A lo largo de más de 10 años de vigencia y decenas de sesiones, el curso ha destilado los contenidos, integrando conocimientos básicos y avanzados de manera que en seis semanas los participantes adquieran un fluido manejo de QGIS. Tiempo atrás se incorporó ChatGPT para tareas de consulta y revisión de código. En esta edición se refuerza la interacción de QGIS con la IA mediante varias herramientas. La más relevante es la integración de QGIS y la plataforma Claude Desktop para automatización de flujos de trabajo. Otras, como los complementos AI Edit y AI Segmentation, facilitan tareas de segmentación y de edición de imágenes. La instalación de los programas empleados en el curso puede insumir valioso tiempo de cursado. Para evitarles esta demora las instrucciones de instalación están disponibles en la web pública, antes de que se inscriban.",
+      description: "/“QGIS  Análisis de datos espaciales, potenciado con ChatGPT y Claude Desktop”/ es excepcional entre los cursos de QGIS a distancia por la diversidad y aplicabilidad profesional del contenido, por el método de aprendizaje por ejercitación, apoyado en numerosos ejercicios acompañados por más de 300 páginas de instrucciones paso-a-paso, y unos cuarenta videos. A lo largo de más de 10 años de vigencia y decenas de sesiones, el curso ha destilado los contenidos, integrando conocimientos básicos y avanzados de manera que en seis semanas los participantes adquieran un fluido manejo de QGIS. Tiempo atrás se incorporó ChatGPT para tareas de consulta y revisión de código. En esta edición se refuerza la interacción de QGIS con la IA mediante varias herramientas. La más relevante es la integración de QGIS y la plataforma Claude Desktop para automatización de flujos de trabajo. Otras, como los complementos AI Edit y AI Segmentation, facilitan tareas de segmentación y de edición de imágenes.",
       modality: "Curso virtual con acceso 24/7. Consultas por Foro 24/7, opción de Proyecto Personal, y dos reuniones sincrónicas. Aprendizaje basado en numerosos ejercicios, más de 300 páginas de instrucciones paso-a-paso, y unos cuarenta videos.",
       modules: [
         {
@@ -584,19 +584,95 @@ export const COURSES: Course[] = [
     },
     pricing: {
       installmentPrice: "$59.990",
-      paymentFullUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/38302944-8fec-4092-8d51-d93c8bd5fe83/payment-option-form/?source=link&preference-id=104981320-e667392e-086d-41d6-9509-8b6b09a88c39&router-request-id=dd7d405a-7e58-45fc-b0a4-407bf2c4d6e5&p=122fdb57b297b4c21aa1bd8f7e79ecda",
-      paymentInstallmentUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/cd5ce519-d31c-4462-a87e-228dc35dddd5/payment-option-form/?source=link&preference-id=104981320-cfadfbf5-a94a-4ccc-97e9-d2446e4a2a27&router-request-id=349b2b2d-7916-4b5b-853e-156ff635b437&p=122fdb57b297b4c21aa1bd8f7e79ecda",
+      paymentFullUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/8a7097ac-ca70-4119-898f-c0615e8cb3fe/payment-option-form/?source=link&router-request-id=42767831-af34-43d1-aecc-5efacf3cb891&preference-id=104981320-4f4adf08-d150-4791-8300-f30ca3d865fb&p=d54e4573b90e7418e667b887c413757b",
+      paymentInstallmentUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/dc6ec73f-e50d-447b-a0e0-8e74b4a8a2c6/payment-option-form/?source=link&router-request-id=d0088bf1-ee72-4e5a-b58f-1aeb74cfb915&preference-id=104981320-2bff9761-33ff-4fa2-a532-173e0df2bc11&p=d54e4573b90e7418e667b887c413757b",
     }
   },
   { 
     id: 8, 
+    title: "QGIS avanzado: Automatización y Modelos para el Análisis Territorial", 
+    slug: "qgis-avanzado",
+    category: "GIS", 
+    price: "$135.000", 
+    track: "geo", 
+    desc: "Se enseña a utilizar QGIS no solamente para representar información geográfica, sino para construir modelos de análisis espacial aplicables a problemas reales de planificación territorial, infraestructura y gestión ambiental.",
+    externalLink: "https://individuales.bonorino.academy/curso/qgis-avanzado/",
+    content: {
+      fullTitle: "QGIS avanzado: Automatización y Modelos para el Análisis Territorial",
+      duration: "6 semanas",
+      hours: "96 horas",
+      instructor: "Dr. Gustavo González Bonorino",
+      area: "Análisis de Datos Geoespaciales",
+      audience: "Este curso está dirigido a usuarios que ya poseen conocimientos de QGIS y desean avanzar hacia un uso más profesional de la plataforma, aprendiendo a diseñar procedimientos reproducibles y a resolver problemas geoespaciales que van mucho más allá de la cartografía convencional.",
+      description: "/“QGIS  avanzado”/ demuestra cómo aplicar QGIS a problemas profesionalmente relevantes: dónde instalar una infraestructura para minimizar la contaminación visual, diseñar la traza de un acueducto a través de una región montañosa, hallar el lugar óptimo para la instalación de una fábrica, entre otros. Y adicionalmente demuestra cómo automatizar la ejecución de estas tareas con la ayuda de la IA.",
+      modality: "Curso virtual con acceso 24/7. Consultas por Foro 24/7, opción de Proyecto Personal, y dos reuniones sincrónicas. Aprendizaje basado en numerosos ejercicios.",
+      modules: [
+        {
+          title: "Módulo 1 — Automatización de procesos",
+          topics: [
+            "El modelador gráfico",
+            "El complemento AI Agent"
+          ]
+        },
+        {
+          title: "Módulo 2 — Geoprocesos I",
+          topics: [
+            "Análisis por superposición: disolución, unión, intersección",
+            "Selección por cercanía y buffers",
+            "Análisis por proximidad y matriz de distancia",
+            "Selección multicriterio",
+            "Análisis multicriterio",
+            "Camino de costo mínimo"
+          ]
+        },
+        {
+          title: "Módulo 3 — Geoprocesos II",
+          topics: [
+            "Detección de cambios 1",
+            "Mapas de visibilidad"
+          ]
+        },
+        {
+          title: "Módulo 4 — Bases de datos con QGIS",
+          topics: [
+            "SpatiaLite"
+          ]
+        },
+        {
+          title: "Módulo 5 — Análisis de redes",
+          topics: [
+            "Herramientas nativas",
+            "QNEAT",
+            "pgRouting"
+          ]
+        },
+        {
+          title: "Módulo 6 — Productos satelitales",
+          topics: [
+            "Detección de cambios 2",
+            "Indices espectrales",
+            "Islas de calor urbano"
+          ]
+        }
+      ],
+      requirements: "El programa QGIS es de distribución libre y gratuita. Se necesita una PC con procesador Intel i3 o equivalente y al menos 2 GB de espacio en disco.",
+      evaluation: "La evaluación se basa en el desempeño a lo largo del curso y en la elaboración de un proyecto propio bajo tutoría. Centro REDES emite certificados de PARTICIPACIÓN y, opcionalmente, de APROBACIÓN con evaluación numérica."
+    },
+    pricing: {
+      installmentPrice: "$75.000",
+      paymentFullUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/9efcfa09-b6ff-401b-be00-f09a52e0b10f/payment-option-form/?source=link&router-request-id=2f892acd-d980-46c6-8258-6f0953931a69&preference-id=104981320-560c8d5e-ce0e-4d5d-b81c-72c1591676d2&p=89d4288308a79d620d3662f4e205c613",
+      paymentInstallmentUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/b0123ce0-410f-4207-910c-12c51baed011/payment-option-form/?source=link&router-request-id=7e9693b1-1211-404f-89f6-52bd6d3e39b4&preference-id=104981320-daa7cec2-971c-482f-b8e6-3aeece33155c&p=89d4288308a79d620d3662f4e205c613",
+    }
+  },
+  { 
+    id: 9, 
     title: "SIG y Satélites para el Agro", 
     slug: "sig-satelites-agro",
     category: "Agro", 
-    price: "$99.900", 
+    price: "$107.982", 
     track: "geo", 
     desc: "Agricultura de precisión aplicada: índices de vegetación, rendimiento y monitoreo de cultivos.",
-    externalLink: "https://centroredes.org.ar/index.php/sig-y-satelites-para-el-agro/",
+    externalLink: "https://individuales.bonorino.academy/curso/sig-satelites-agro/",
     content: {
       fullTitle: "SIG y satélites para el agro — La aplicación de instrumentos y métodos geoespaciales en la agricultura de precisión, potenciado con ChatGPT",
       duration: "6 semanas",
@@ -653,15 +729,15 @@ export const COURSES: Course[] = [
       evaluation: "Centro REDES emite certificados de Participación y, opcionalmente, de Aprobación con calificación numérica. Este último requiere la presentación de un Proyecto Personal sobre un tema a elección del participante."
     },
     pricing: {
-      installmentPrice: "$55.500",
-      paymentFullUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/f47bcdd0-bce3-4d24-b728-0858c16abd0c/payment-option-form/?source=link&preference-id=104981320-a0047243-7786-44fb-b3ac-acc5bdbbb3bd&router-request-id=76988d58-5326-4dd5-997a-b5912720e85d&p=cceaf388cdead7ca133eac0253c6cd65",
-      paymentInstallmentUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/e256733a-74b9-46a7-959b-926ce7a76020/payment-option-form/?source=link&preference-id=104981320-ac289551-4104-4cac-b54b-42f4551128bb&router-request-id=a68f2d53-61c1-4bcc-ada5-74e05b81c3be&p=cceaf388cdead7ca133eac0253c6cd65",
+      installmentPrice: "$59.990",
+      paymentFullUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/aa5328ce-2aa0-4c83-b49a-2523720e46b2/payment-option-form/?source=link&router-request-id=6e9f7c09-df06-4e02-a8e3-1fff4f007c6e&preference-id=104981320-68767c40-d9fd-4760-8168-cffe302b6507&p=d54e4573b90e7418e667b887c413757b",
+      paymentInstallmentUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/12df702d-ee03-465c-9314-d36930223224/payment-option-form/?source=link&router-request-id=fb365104-17d0-4a13-9243-1330d63b4749&preference-id=104981320-98bc11f5-4d86-4275-aafe-45a76605ad4c&p=d54e4573b90e7418e667b887c413757b",
     }
   },
 
   // TRACK: DATA SCIENCE
   { 
-    id: 9, 
+    id: 10, 
     title: "Python avanzado", 
     slug: "python-avanzado",
     category: "Programación", 
@@ -739,14 +815,14 @@ export const COURSES: Course[] = [
     }
   },
   { 
-    id: 10, 
+    id: 11, 
     title: "Programación aplicada con R", 
     slug: "programacion-r",
     category: "Programación", 
-    price: "$99.900", 
+    price: "$107.982", 
     track: "data", 
     desc: "Análisis estadístico robusto y gráficos de publicación científica (ggplot2) para investigadores.",
-    externalLink: "https://centroredes.org.ar/index.php/programacion-en-r/",
+    externalLink: "https://individuales.bonorino.academy/curso/programacion-r/",
     content: {
       fullTitle: "Programación aplicada con R, potenciada con ChatGPT",
       duration: "6 semanas",
@@ -826,20 +902,20 @@ export const COURSES: Course[] = [
       evaluation: "Centro REDES otorga certificados de Participación y de Aprobación. El certificado de Aprobación lleva una calificación numérica y exige la presentación de un Proyecto Personal."
     },
     pricing: {
-      installmentPrice: "$55,500 ",
-      paymentFullUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/34abf9f2-3c3e-457a-bab4-09872020877e/payment-option-form/?source=link&preference-id=104981320-1f4e6422-b3cb-4239-a3e9-db5fec6234bb&router-request-id=321ede13-fd26-44f0-9b57-3aa0b80e395b&p=7987b7fffd88c311c4269b96629116cd",
-      paymentInstallmentUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/5b5289fe-2cf9-4848-a1a9-32d70868a953/payment-option-form/?source=link&preference-id=104981320-a6cb96d6-c8ae-4c7a-a59a-d1b02006fac8&router-request-id=c49830d6-d0a5-45e5-9db1-0f63386964dc&p=7987b7fffd88c311c4269b96629116cd",
+      installmentPrice: "$59.990",
+      paymentFullUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/d4f89c01-99a3-4356-a73f-2502f303fc1a/payment-option-form/?source=link&router-request-id=39fbc2b8-323f-487c-9786-ac44de68a8e9&preference-id=104981320-00881520-4cbd-4a02-b5fd-e2edcb26a0b7&p=d54e4573b90e7418e667b887c413757b",
+      paymentInstallmentUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/bbc84203-c241-4c25-b8f2-8f8d437b2c30/payment-option-form/?source=link&router-request-id=227c9043-7a1a-46d4-9053-662596b014a5&preference-id=104981320-67684f61-ba1c-41c1-8ea1-d1700de6b435&p=d54e4573b90e7418e667b887c413757b",
     }
   },
   { 
-    id: 11, 
+    id: 12, 
     title: "Epidemiología estadística con R",
     slug: "epidemiologia-r",
     category: "Estadística", 
-    price: "$99.900", 
+    price: "$107.982", 
     track: "data", 
     desc: "Introducción a la aplicación del lenguaje R en el análisis de datos epidemiológicos.",
-    externalLink: "https://centroredes.org.ar/index.php/epidemiologia-estadistica/",
+    externalLink: "https://individuales.bonorino.academy/curso/epidemiologia-r/",
     content: {
       fullTitle: "Epidemiología estadística con R",
       duration: "6 semanas",
@@ -924,13 +1000,13 @@ export const COURSES: Course[] = [
       evaluation: "Centro REDES otorga certificados de Participación y de Aprobación. El certificado de Aprobación lleva una calificación numérica y exige la presentación de un Proyecto Personal."
     },
     pricing: {
-      installmentPrice: "$55.500",
-      paymentFullUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/f7dac5fb-8b70-4c58-8d58-90e0c3f35d69/payment-option-form/?source=link&preference-id=104981320-7558dfe5-1c1f-4064-9a63-d79fe733f34c&router-request-id=7d182db8-ae2f-45cc-8f4a-528cf3a00600&p=3b51f16ecd7673ef03f50dc1e6dcd552",
-      paymentInstallmentUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/aa6dccf6-3e57-4a49-b75e-994eda91c62a/payment-option-form/?source=link&preference-id=104981320-964ea106-b399-4f21-b90f-82a169ffc09c&router-request-id=60eceb80-ec18-420b-a6ea-ec7cf8693a22&p=3b51f16ecd7673ef03f50dc1e6dcd552"
+      installmentPrice: "$59.990",
+      paymentFullUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/fc332362-da47-47ab-932e-d7e14b73aea5/payment-option-form/?source=link&router-request-id=2b38d134-e3cf-43dc-a277-dd989d6b7326&preference-id=104981320-7e31ccce-75b3-4184-a74c-caf884224a65&p=d54e4573b90e7418e667b887c413757b",
+      paymentInstallmentUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/93401248-359c-40d1-b059-8e1ec2ab1ecb/payment-option-form/?source=link&router-request-id=946331a9-eba1-4f32-a284-a2cc6afc6ddb&preference-id=104981320-3204ebcc-8be0-49e8-bac8-41dc3dc539aa&p=d54e4573b90e7418e667b887c413757b"
     }
   },
   { 
-    id: 12, 
+    id: 13, 
     title: "SQLite en la era de la IA", 
     slug: "sqlite-ia",
     category: "Programación", 
@@ -1023,7 +1099,7 @@ export const COURSES: Course[] = [
     }
   },
   { 
-    id: 13, 
+    id: 14, 
     title: "Machine Learning en Ciencias Sociales y de la Salud", 
     slug: "machine-learning", 
     category: "Inteligencia Artificial", 
@@ -1103,7 +1179,7 @@ export const COURSES: Course[] = [
     }
   },
   { 
-    id: 14, 
+    id: 15, 
     title: "Python en la era de la IA", 
     slug: "python-ia",
     category: "Programación", 
@@ -1187,7 +1263,7 @@ export const COURSES: Course[] = [
   
   // TRACK: AGUA & AMBIENTE
   { 
-    id: 15, 
+    id: 16, 
     title: "Modelos Hidrológicos HEC-HMS", 
     slug: "hec-hms",
     category: "Hidrología", 
@@ -1267,7 +1343,7 @@ export const COURSES: Course[] = [
     }
   },
   { 
-    id: 16, 
+    id: 17, 
     title: "Modelado Hidráulico HEC-RAS", 
     slug: "hec-ras",
     category: "Hidráulica", 
@@ -1346,22 +1422,22 @@ export const COURSES: Course[] = [
     }
   },
   { 
-    id: 17, 
+    id: 18, 
     title: "Modelización de redes hidráulicas presurizadas con EPANET", 
     slug: "epanet",
     category: "Hidráulica", 
-    price: "$99.900", 
+    price: "$107.982", 
     track: "water", 
     desc: "Simulación del flujo de agua en redes de cañerías bajo presión.",
-    externalLink: "https://centroredes.org.ar/index.php/epanet/",
+    externalLink: "https://individuales.bonorino.academy/curso/epanet/",
     content: {
       fullTitle: "Modelización de redes hidráulicas presurizadas con EPANET",
       duration: "6 semanas",
       hours: "72 horas",
       instructor: "Dr. Gustavo González Bonorino",
       area: "Hidráulica",
-      audience: "Profesionales y estudiantes interesados en modelación de flujo de agua en redes hidráulicas presurizadas. Incluye transporte de contaminates.",
-      description: "El programa EPANET ha sido diseñado por Lewis Rossman y colaboradores. Numerosos ejercicios resuelven problemas reales de simulación hidráulica. ",
+      audience: "Profesionales y estudiantes interesados en modelación de flujo de agua en redes hidráulicas presurizadas. Incluye transporte de contaminantes.",
+      description: "Aprenda a simular redes de distribución de agua potable y para riego. EPANET permite operar con complejas redes compuestas por tanques, válvulas, bombas y otros componentes, en modo estacionario y también variable en el tiempo. EPANET es un programa de acceso libre utilizado gobalmente por ingenieros y técnicos en agua.",
       modality: "Curso virtual con acceso 24/7. Consultas por Foro 24/7, opción de Proyecto Personal, y dos reuniones sincrónicas al promediar el curso. Material presentado en videos complementados con ejercicios con y sin guía.",
       modules: [
         {
@@ -1381,9 +1457,9 @@ export const COURSES: Course[] = [
           topics: [
             "Redes alimentadas por gravedad",
             "Inserción de quiebres de presión",
-            "Inserción y parameterización de bombas",
+            "Inserción y parametrización de bombas",
             "Redes alimentadas por bombas",
-            "Inserción y parameterización de válvulas",
+            "Inserción y parametrización de válvulas",
             "Empleo de un mapa de fondo para el diseño"
           ]
         },
@@ -1432,9 +1508,9 @@ export const COURSES: Course[] = [
       evaluation: "Centro REDES emite certificados de Participación y, opcionalmente, de Aprobación con evaluación numérica."
     },
     pricing: {
-      installmentPrice: "$55.500",
-      paymentFullUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/484ab973-a18c-47e6-acac-cee7a378e0ec/payment-option-form/?source=link&preference-id=104981320-4379c4f1-184f-4fe3-bca6-50d6eaf08b0e&router-request-id=4f54c368-86bb-4de5-9504-38aa28aae1db&p=122fdb57b297b4c21aa1bd8f7e79ecda",
-      paymentInstallmentUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/a7640ac7-03ce-4258-98f9-7d87ff9ac174/payment-option-form/?source=link&preference-id=104981320-699413da-a46c-4d21-9bcb-63bb24fab35d&router-request-id=c12def47-a331-4268-8622-648369c7585b&p=122fdb57b297b4c21aa1bd8f7e79ecda"
+      installmentPrice: "$59.990",
+      paymentFullUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/48b09d3a-8d09-4493-bba4-68345606f39d/payment-option-form/?source=link&router-request-id=74dbd0bf-ae1d-40b8-b709-fffa9e8bcb97&preference-id=104981320-f1e8a15c-c102-44aa-8d21-b0883855f6ce&p=d54e4573b90e7418e667b887c413757b",
+      paymentInstallmentUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/86686f77-abb5-4206-b369-592e6d970aa1/payment-option-form/?source=link&router-request-id=1f0d267e-e479-439d-b927-f5269566d59a&preference-id=104981320-441f5c7c-95a3-4711-8220-e5f3a420cc8e&p=d54e4573b90e7418e667b887c413757b"
     }
   }
 ];
@@ -1449,7 +1525,7 @@ export const MILESTONES: Milestone[] = [
 
 export const FILTERS: FilterOption[] = [
   { id: 'all', label: 'Todos' },
-  { id: 'geo', label: 'Geospacial' },
+  { id: 'geo', label: 'Geoespacial' },
   { id: 'data', label: 'Data Science' },
   { id: 'water', label: 'Hídricos' },
   { id: 'ai', label: 'IA & Productividad' },
