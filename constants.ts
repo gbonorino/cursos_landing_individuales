@@ -402,8 +402,8 @@ export const COURSES: Course[] = [
     },
     pricing: {
       installmentPrice: "$59.990",
-      paymentFullUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/40d141f2-db6f-415f-b4e7-f47e23e953a9/payment-option-form/?source=link&router-request-id=7c281cf0-7d96-495d-ae00-5d0aaab88343&preference-id=104981320-0b83b7fa-3cdc-4707-a62d-84e8a51ae9f2&p=d54e4573b90e7418e667b887c413757b",
-      paymentInstallmentUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/c89cfbb3-b9fd-40d6-9849-5c638c4e0689/payment-option-form/?source=link&router-request-id=61c05543-9af8-450e-8927-438081473eea&preference-id=104981320-da56f8d3-6dbf-4cbb-a918-b0437d7ebcb4&p=d54e4573b90e7418e667b887c413757b",
+      paymentFullUrl: "https://mpago.la/1JjbnkP",
+      paymentInstallmentUrl: "https://mpago.la/1KcZbnR",
     }
   },
   { 
@@ -584,8 +584,8 @@ export const COURSES: Course[] = [
     },
     pricing: {
       installmentPrice: "$59.990",
-      paymentFullUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/8a7097ac-ca70-4119-898f-c0615e8cb3fe/payment-option-form/?source=link&router-request-id=42767831-af34-43d1-aecc-5efacf3cb891&preference-id=104981320-4f4adf08-d150-4791-8300-f30ca3d865fb&p=d54e4573b90e7418e667b887c413757b",
-      paymentInstallmentUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/dc6ec73f-e50d-447b-a0e0-8e74b4a8a2c6/payment-option-form/?source=link&router-request-id=d0088bf1-ee72-4e5a-b58f-1aeb74cfb915&preference-id=104981320-2bff9761-33ff-4fa2-a532-173e0df2bc11&p=d54e4573b90e7418e667b887c413757b",
+      paymentFullUrl: "https://mpago.la/1h7G8tR",
+      paymentInstallmentUrl: "https://mpago.la/2JqVrPe",
     }
   },
   { 
@@ -660,8 +660,8 @@ export const COURSES: Course[] = [
     },
     pricing: {
       installmentPrice: "$75.000",
-      paymentFullUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/9efcfa09-b6ff-401b-be00-f09a52e0b10f/payment-option-form/?source=link&router-request-id=2f892acd-d980-46c6-8258-6f0953931a69&preference-id=104981320-560c8d5e-ce0e-4d5d-b81c-72c1591676d2&p=89d4288308a79d620d3662f4e205c613",
-      paymentInstallmentUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/b0123ce0-410f-4207-910c-12c51baed011/payment-option-form/?source=link&router-request-id=7e9693b1-1211-404f-89f6-52bd6d3e39b4&preference-id=104981320-daa7cec2-971c-482f-b8e6-3aeece33155c&p=89d4288308a79d620d3662f4e205c613",
+      paymentFullUrl: "https://mpago.la/1J5pfpu",
+      paymentInstallmentUrl: "https://mpago.la/2r1ebnv",
     }
   },
   { 
@@ -730,8 +730,8 @@ export const COURSES: Course[] = [
     },
     pricing: {
       installmentPrice: "$59.990",
-      paymentFullUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/aa5328ce-2aa0-4c83-b49a-2523720e46b2/payment-option-form/?source=link&router-request-id=6e9f7c09-df06-4e02-a8e3-1fff4f007c6e&preference-id=104981320-68767c40-d9fd-4760-8168-cffe302b6507&p=d54e4573b90e7418e667b887c413757b",
-      paymentInstallmentUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/12df702d-ee03-465c-9314-d36930223224/payment-option-form/?source=link&router-request-id=fb365104-17d0-4a13-9243-1330d63b4749&preference-id=104981320-98bc11f5-4d86-4275-aafe-45a76605ad4c&p=d54e4573b90e7418e667b887c413757b",
+      paymentFullUrl: "https://mpago.la/1k6zGBG",
+      paymentInstallmentUrl: "https://mpago.la/1P2g81s",
     }
   },
 
@@ -903,11 +903,11 @@ export const COURSES: Course[] = [
     },
     pricing: {
       installmentPrice: "$59.990",
-      paymentFullUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/d4f89c01-99a3-4356-a73f-2502f303fc1a/payment-option-form/?source=link&router-request-id=39fbc2b8-323f-487c-9786-ac44de68a8e9&preference-id=104981320-00881520-4cbd-4a02-b5fd-e2edcb26a0b7&p=d54e4573b90e7418e667b887c413757b",
-      paymentInstallmentUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/bbc84203-c241-4c25-b8f2-8f8d437b2c30/payment-option-form/?source=link&router-request-id=227c9043-7a1a-46d4-9053-662596b014a5&preference-id=104981320-67684f61-ba1c-41c1-8ea1-d1700de6b435&p=d54e4573b90e7418e667b887c413757b",
-    }
-  },
-  { 
+      paymentFullUrl: "https://mpago.la/1JKyff1",
+      paymentInstallmentUrl: "https://mpago.la/1gijtkG"
+     }
+    },
+    { 
     id: 12, 
     title: "Epidemiología estadística con R",
     slug: "epidemiologia-r",
@@ -1001,8 +1001,8 @@ export const COURSES: Course[] = [
     },
     pricing: {
       installmentPrice: "$59.990",
-      paymentFullUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/fc332362-da47-47ab-932e-d7e14b73aea5/payment-option-form/?source=link&router-request-id=2b38d134-e3cf-43dc-a277-dd989d6b7326&preference-id=104981320-7e31ccce-75b3-4184-a74c-caf884224a65&p=d54e4573b90e7418e667b887c413757b",
-      paymentInstallmentUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/93401248-359c-40d1-b059-8e1ec2ab1ecb/payment-option-form/?source=link&router-request-id=946331a9-eba1-4f32-a284-a2cc6afc6ddb&preference-id=104981320-3204ebcc-8be0-49e8-bac8-41dc3dc539aa&p=d54e4573b90e7418e667b887c413757b"
+      paymentFullUrl: "https://mpago.la/1TjzKzV",
+      paymentInstallmentUrl: "https://mpago.la/2jp35ky"
     }
   },
   { 
@@ -1509,8 +1509,8 @@ export const COURSES: Course[] = [
     },
     pricing: {
       installmentPrice: "$59.990",
-      paymentFullUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/48b09d3a-8d09-4493-bba4-68345606f39d/payment-option-form/?source=link&router-request-id=74dbd0bf-ae1d-40b8-b709-fffa9e8bcb97&preference-id=104981320-f1e8a15c-c102-44aa-8d21-b0883855f6ce&p=d54e4573b90e7418e667b887c413757b",
-      paymentInstallmentUrl: "https://www.mercadopago.com.ar/checkout/v1/payment/redirect/86686f77-abb5-4206-b369-592e6d970aa1/payment-option-form/?source=link&router-request-id=1f0d267e-e479-439d-b927-f5269566d59a&preference-id=104981320-441f5c7c-95a3-4711-8220-e5f3a420cc8e&p=d54e4573b90e7418e667b887c413757b"
+      paymentFullUrl: "https://mpago.la/2zkFG1A",
+      paymentInstallmentUrl: "https://mpago.la/1k3nukg"
     }
   }
 ];
